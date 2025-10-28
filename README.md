@@ -1,17 +1,12 @@
 # Unused-Parameters-Lists
 
 
-<aside>
-1️⃣
-
-# **`RFQ`**
-
-</aside>
+## **`1️⃣ RFQ (Request for Quotation)`**
 
 # Unused Parameters
 
 > List of Unused Parameters from this API (Pagination Table API) - **`customer/requestQuotation/getRFQlist`**
-> 
+ 
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
@@ -29,7 +24,7 @@
 ---
 
 > List of Unused Parameters from this API **- `customer/requestQuotation/getDeleteRequestQuotation`**
-> 
+
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
@@ -105,9 +100,9 @@ customer/tender/list_tender
 customer/tender/list_tender_flow
 
 customer/tender/tender_details
+---
 
 > **List of unused parameters in the API (which is called when opening a specific RFQ List drawer) `customer/requestQuotation/getRFQlist`**
-> 
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
@@ -150,8 +145,9 @@ customer/tender/tender_details
 | `oem_vendor_count` | `Used` |
 | `bidder_vendor_count` | `Used` |
 
+---
+
 > **List of unused parameters in the API `customer/requestQuotation/listVendorQuotation`**
-> 
 
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
@@ -298,6 +294,8 @@ customer/tender/tender_details
 | `141` | `material_name` | `✅ Used` |
 | `142` | `material_short_description` | `✅ Used` |
 
+---
+
 **All used Parameters:**
 
 **`vendor_rfq_quotation_history`**
@@ -397,8 +395,10 @@ customer/tender/tender_details
 | `last_name` |  |
 | `verified` |  |
 
+---
+
 > **List of unused parameters in the API (which is called when opening a specific RFQ Detail drawer) `customer/requestQuotation/get_rfq_details`**
-> 
+
 
 **Date: 14/10/25**
 
@@ -560,7 +560,7 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API -  `customer/requestQuotation/comparisionRFQApproverHistory`**
-> 
+
 
 **Date: 14/10/25**
 
@@ -598,7 +598,7 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API - (called when take reference from PR) -  `customer/purchaseRequest/getPurchaseRequestRFQData`**
-> 
+
 
 **Date: 14/10/25**
 
@@ -674,7 +674,7 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API - (called during componentDidMount) -**  `customer/vendor/listPagination`
-> 
+
 
 **Date: 15/10/25**
 
@@ -757,7 +757,7 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API - (called during componentDidMount) -**  `customer/material/getMaterialRecords`
-> 
+
 
 **Date: 15/10/25**
 
@@ -791,17 +791,13 @@ customer/tender/tender_details
 | `26` | `material_group_name` | `used` |
 | `27` | `material_group_code` | `used` |
 
----
+-------------------------
 
-<aside>
-2️⃣
+## `2️⃣` **`Purchase Request`**
 
-# **`Purchase Request`**
-
-</aside>
 
 > **List of unused parameters in the API - (called during componentDidMount / Pagination ) -  `customer/purchaseRequest/getPurchaseRequestLists`**
-> 
+
 
 **Date: 15/10/25**
 
@@ -842,8 +838,10 @@ customer/tender/tender_details
 | 33 | tender_type_name |  |
 | 34 | collective_tender_no |  |
 
+---
+
 > **List of unused parameters in the API - (called during componentDidMount / Pagination ) -** `customer/purchaseRequest/getRFQPurchaseRequestLists`
-> 
+
 
 **Date: 15/10/25**
 
@@ -955,8 +953,10 @@ customer/tender/tender_details
 | 104 | collective_rfq_number | used |
 | 105 | tenders | used |
 
+---
+
 > **List of unused parameters in the API - (called during componentDidMount / Pagination ) - `customer/purchaseRequest/getDeletedPurchaseRequestLists`**
-> 
+
 
 **Date: 15/10/25**
 
@@ -993,8 +993,10 @@ customer/tender/tender_details
 | 29 | tender_type_name |  |
 | 30 | collective_tender_no | used |
 
+---
+
 > **List of unused parameters in the API - (called during open specific PR Details ) -** `customer/purchaseRequest/getPurchaseRequestDetails`
-> 
+
 
 **Date: 15/10/25**
 
@@ -1119,7 +1121,7 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API - (called during click on Print PR button in Side Drawer) - `customer/purchaseRequest/getPurchaseRequestRecordsLists`**
-> 
+
 
 **Date: 16/10/25**
 
@@ -1305,15 +1307,13 @@ customer/tender/tender_details
 | `178` | `updated_at` |  |
 | `179` | `purchase_request_material_id` | `✅used` |
 
-<aside>
-3️⃣
+-------------------------
 
-# **`Purchase Order`**
 
-</aside>
+# **`3️⃣ Purchase Order`**
 
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getPurchaseOrderLists`**
-> 
+
 
 **Date: 16/10/25**
 
@@ -1367,8 +1367,10 @@ customer/tender/tender_details
 | `46` | `material_specification` | `used` |
 | `47` | `material_short_description` | `used` |
 
+---
+
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getPurchaseOrderListDetails`**
-> 
+
 
 **Date: 16/10/25**
 
@@ -1565,8 +1567,10 @@ customer/tender/tender_details
 | `invoices` |  |
 | `total_po_advance_amount` | `used` |
 
+---
+
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getAdvancePaymentRecordLists`**
-> 
+
 
 **Date: 16/10/25**
 
@@ -1588,12 +1592,13 @@ customer/tender/tender_details
 | **vendor_code** | used |
 | **vendor_name** | used |
 
-<aside>
-4️⃣
 
-# `ARC`
+-------------------------
 
-</aside>
+
+
+# **`4️⃣ ARC`**
+
 
 > **List of unused parameters in the API - `customer/arcQuotation/getRFQlis`**
 > 
@@ -1642,8 +1647,10 @@ customer/tender/tender_details
 | **`oem_vendor_count`** | used |
 | **`bidder_vendor_count`** | used |
 
+---
+
 > **List of unused parameters in the API - `customer/arcQuotation/get_rfq_details`**
-> 
+
 
 **`Date: 17/10/25`**
 
@@ -1797,8 +1804,10 @@ customer/tender/tender_details
 | **`vendorqueries`** |  |
 | **`attachments`** | used |
 
+---
+
 > **List of unused parameters in the API - `customer/arcQuotation/comparisionRFQApproverHistory`**
-> 
+
 
 **`Date: 17/10/25`**
 
@@ -1832,8 +1841,10 @@ customer/tender/tender_details
 | **cust_emp_lname** | used |
 | **ceb_prefix** | used |
 
+---
+
 > **List of unused parameters in the API - `customer/arcQuotation/getDeleteRequestQuotation`**
-> 
+
 
 **`Date: 17/10/25`**
 
@@ -1861,8 +1872,10 @@ customer/tender/tender_details
 | **`cust_emp_fname`** |  |
 | **`cust_emp_lname`** |  |
 
+---
+
 > **List of unused parameters in the API - `customer/arcQuotation/getRequestQuotationARCDetails`**
-> 
+
 
 **`Date: 17/10/25`**
 
@@ -2002,3 +2015,172 @@ customer/tender/tender_details
 | **`material_short_description`** | **`used`** |
 | **`vendorqueries`** | **`used`** |
 | **`attachments`** | **`used`** |
+
+-------------------------
+
+
+# **`5️⃣ ARC Contract`**
+
+
+
+> **List of unused parameters in the API (Pagination API) - `customer/arcContractOrder/getPurchaseOrderLists`**
+
+
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `arc_contract_id` | `used` |
+| `po_deadline` | `used` |
+| `po_status` | `used` |
+| `sap_po_number` | `used` |
+| `arc_tender_type` |  |
+| `arc_contract_start_date` | `used` |
+| `arc_contract_end_date` | `used` |
+| `is_deleted` | `used` |
+| `collective_arc_number` | `used` |
+| `po_type_name` |  |
+| `po_type_id` |  |
+| `po_type_code` |  |
+| `po_date` |  |
+| `purchase_group_id` |  |
+| `requisitioner_name` |  |
+| `po_comparitive_link` |  |
+| `po_comparitive_document_link` | `used` |
+| `po_assignee_id` |  |
+| `po_references` |  |
+| `po_reference_type` |  |
+| `po_vendor_status` | `used` |
+| `pr_delivery_details` |  |
+| `f_and_o` |  |
+| `f_and_o_dec` |  |
+| `payment_terms` |  |
+| `delivery_terms` |  |
+| `quantity_terms` |  |
+| `payment_terms_dec` |  |
+| `delivery_terms_dec` |  |
+| `contact_person_name` |  |
+| `contact_person_number` |  |
+| `dms_id` |  |
+| `vendor_id` | `used` |
+| `po_created_at` | `used` |
+| `header_text` |  |
+| `delete_remarks` | `used` |
+| `department_name` |  |
+| `notifier_staff` | `used` |
+| `po_vendor_document` |  |
+| `po_total_amount` |  |
+| `is_acknowledge` | `used` |
+| `vendor_code` | `used` |
+| `vendor_name` | `used` |
+| `vendor_email` |  |
+| `vendor_phone` |  |
+| `created_by` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `dms_document_path` |  |
+| `arc_rfq_details` | `used` |
+| `arc_rfq_id` |  |
+| `arc_status` |  |
+| `vendor_record` |  |
+| `finalmateriallists` |  |
+| `item` | `used` |
+| `unit` | `used` |
+| `pr_id` |  |
+| `pro_id` |  |
+| `unit_id` |  |
+| `category` |  |
+| `currency` |  |
+| `plant_id` |  |
+| `quantity` | `used` |
+| `gst_price` |  |
+| `item_note` |  |
+| `item_text` |  |
+| `order_qty` |  |
+| `created_at` | `used` |
+| `unit_price` |  |
+| `updated_at` |  |
+| `attachments` |  |
+| `material_id` |  |
+| `po_quantity` | `used` |
+| `total_amount` |  |
+| `discount_type` |  |
+| `initial_price` |  |
+| `material_code` | `used` |
+| `material_name` | `used` |
+| `plant_details` |  |
+| `plant_gst` |  |
+| `plant_city` |  |
+| `plant_code` |  |
+| `plant_name` |  |
+| `customer_id` |  |
+| `plant_state` |  |
+| `plant_postal_code` |  |
+| `plant_additional_name` |  |
+| `quantity_open` |  |
+| `vendor_emp_id` |  |
+| `discount_value` |  |
+| `insurance_type` |  |
+| `po_total_price` |  |
+| `process_status` |  |
+| `quotation_text` |  |
+| `service_detail` |  |
+|  |  |
+| `insurance_value` |  |
+| `quotation_price` |  |
+| `discount_cn_type` |  |
+| `gst_charge_value` |  |
+| `invoice_delivery` |  |
+| `item_category_id` |  |
+| `quantity_ordered` |  |
+| `quotation_status` |  |
+| `arc_category_name` | `used` |
+| `cess_charge_value` |  |
+| `insurance_cn_type` |  |
+| `landed_unit_price` |  |
+| `material_quantity` |  |
+| `local_charges_type` |  |
+| `local_charges_value` |  |
+| `po_gst_charge_value` |  |
+| `transportation_type` |  |
+| `arc_vendor_master_id` |  |
+| `landed_unit_wo_price` |  |
+| `negotiate_unit_price` |  |
+| `transportation_value` |  |
+| `arc_sub_category_name` | `used` |
+| `local_charges_cn_type` |  |
+| `quotation_attachments` |  |
+| `acc_assets_category_id` |  |
+| `comparison_total_price` |  |
+| `discount_lumpsum_value` |  |
+| `loading_unloading_type` |  |
+| `material_specification` | `used` |
+| `transportation_cn_type` |  |
+| `arc_request_material_id` |  |
+| `arc_vendor_quotation_id` | `used` |
+| `insurance_lumpsum_value` |  |
+| `loading_unloading_value` |  |
+| `material_service_detail` |  |
+| `arc_price_service_detail` |  |
+|  |  |
+| `discount_lumpsum_cn_type` |  |
+| `gst_charge_lumpsum_value` |  |
+| `insurance_lumpsum_cn_type` |  |
+| `loading_unloading_cn_type` |  |
+| `packaging_forwarding_type` |  |
+| `po_material_deadline_date` |  |
+| `material_short_description` | `used` |
+| `packaging_forwarding_value` |  |
+| `local_charges_lumpsum_value` |  |
+| `negotiate_landed_unit_price` |  |
+| `packaging_forwarding_cn_type` |  |
+| `transportation_lumpsum_value` |  |
+| `local_charges_lumpsum_cn_type` |  |
+| `transportation_lumpsum_cn_type` |  |
+| `loading_unloading_lumpsum_value` |  |
+| `loading_unloading_lumpsum_cn_type` |  |
+| `packaging_forwarding_lumpsum_value` |  |
+| `packaging_forwarding_lumpsum_cn_type` |  |	
+
+
+---
+
