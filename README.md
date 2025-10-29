@@ -2038,34 +2038,34 @@ customer/tender/tender_details
 | `arc_contract_end_date` | `used` |
 | `is_deleted` | `used` |
 | `collective_arc_number` | `used` |
-| `po_type_name` |  |
-| `po_type_id` |  |
-| `po_type_code` |  |
-| `po_date` |  |
-| `purchase_group_id` |  |
-| `requisitioner_name` |  |
+| `po_type_name` | `used` |
+| `po_type_id` | `used` |
+| `po_type_code` | `used` |
+| `po_date` | `used` |
+| `purchase_group_id` | `used` |
+| `requisitioner_name` | `used` |
 | `po_comparitive_link` |  |
 | `po_comparitive_document_link` | `used` |
 | `po_assignee_id` |  |
 | `po_references` |  |
-| `po_reference_type` |  |
+| `po_reference_type` | `used` |
 | `po_vendor_status` | `used` |
-| `pr_delivery_details` |  |
-| `f_and_o` |  |
-| `f_and_o_dec` |  |
-| `payment_terms` |  |
-| `delivery_terms` |  |
-| `quantity_terms` |  |
-| `payment_terms_dec` |  |
-| `delivery_terms_dec` |  |
-| `contact_person_name` |  |
-| `contact_person_number` |  |
-| `dms_id` |  |
+| `pr_delivery_details` | `used` |
+| `f_and_o` | `used` |
+| `f_and_o_dec` | `used` |
+| `payment_terms` | `used` |
+| `delivery_terms` | `used` |
+| `quantity_terms` | `used` |
+| `payment_terms_dec` | `used` |
+| `delivery_terms_dec` | `used` |
+| `contact_person_name` | `used` |
+| `contact_person_number` | `used` |
+| `dms_id` | `used` |
 | `vendor_id` | `used` |
 | `po_created_at` | `used` |
-| `header_text` |  |
+| `header_text` | `used` |
 | `delete_remarks` | `used` |
-| `department_name` |  |
+| `department_name` | `used` |
 | `notifier_staff` | `used` |
 | `po_vendor_document` |  |
 | `po_total_amount` |  |
@@ -2077,15 +2077,15 @@ customer/tender/tender_details
 | `created_by` | `used` |
 | `cust_emp_fname` | `used` |
 | `cust_emp_lname` | `used` |
-| `dms_document_path` |  |
+| `dms_document_path` | `used` |
 | `arc_rfq_details` | `used` |
-| `arc_rfq_id` |  |
+| `arc_rfq_id` | `used` |
 | `arc_status` |  |
-| `vendor_record` |  |
-| `finalmateriallists` |  |
+| `vendor_record` | `used` |
+| `finalmateriallists` | `used` |
 | `item` | `used` |
 | `unit` | `used` |
-| `pr_id` |  |
+| `pr_id` | `used` |
 | `pro_id` |  |
 | `unit_id` |  |
 | `category` |  |
@@ -2124,7 +2124,6 @@ customer/tender/tender_details
 | `process_status` |  |
 | `quotation_text` |  |
 | `service_detail` |  |
-|  |  |
 | `insurance_value` |  |
 | `quotation_price` |  |
 | `discount_cn_type` |  |
@@ -2142,7 +2141,7 @@ customer/tender/tender_details
 | `local_charges_value` |  |
 | `po_gst_charge_value` |  |
 | `transportation_type` |  |
-| `arc_vendor_master_id` |  |
+| `arc_vendor_master_id` | `used` |
 | `landed_unit_wo_price` |  |
 | `negotiate_unit_price` |  |
 | `transportation_value` |  |
@@ -2161,7 +2160,6 @@ customer/tender/tender_details
 | `loading_unloading_value` |  |
 | `material_service_detail` |  |
 | `arc_price_service_detail` |  |
-|  |  |
 | `discount_lumpsum_cn_type` |  |
 | `gst_charge_lumpsum_value` |  |
 | `insurance_lumpsum_cn_type` |  |
@@ -2179,8 +2177,76 @@ customer/tender/tender_details
 | `loading_unloading_lumpsum_value` |  |
 | `loading_unloading_lumpsum_cn_type` |  |
 | `packaging_forwarding_lumpsum_value` |  |
-| `packaging_forwarding_lumpsum_cn_type` |  |	
+| `packaging_forwarding_lumpsum_cn_type` |  |
+
+---
+
+> **List of unused parameters in the API (API Called when taking reference for creating a new ARC Contract) - `customer/arcQuotation/getRFQApprovedRecord`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `arc_rfq_id` | `used` |
+| `arc_number` |  |
+| `arc_deadline` |  |
+| `arc_status` |  |
+| `is_deleted` |  |
+| `vendors_id` | `used` |
+| `collective_arc_number` | `used` |
+| `arc_tendor_type` |  |
+| `arc_type` |  |
+| `arc_date` |  |
+| `purchase_group_id` | `used` |
+| `created_by` | `used` |
+| `arc_type_code` |  |
+| `arc_oc` |  |
+| `arc_extend_status` |  |
+| `negotiation_deadlinedate` |  |
+| `is_show_negotiate` |  |
+| `contract_name` |  |
+| `cust_emp_fname` |  |
+| `cust_emp_lname` |  |
+| `vendorlists` | `used` |
+| `pro_id` |  |
+| `f_and_o` | `used` |
+| `pr_number` | `used` |
+| `vendor_id` | `used` |
+| `created_at` |  |
+| `updated_at` |  |
+| `cust_emp_id` |  |
+| `customer_id` |  |
+| `f_and_o_dec` | `used` |
+| `gst_remarks` |  |
+| `rfq_created` |  |
+| `vendor_code` | `used` |
+| `vendor_name` | `used` |
+| `total_amount` |  |
+| `vendor_email` |  |
+| `vendor_phone` |  |
+| `materiallists` |  |
+| `payment_terms` | `used` |
+| `delivery_terms` | `used` |
+| `quantity_terms` | `used` |
+| `regret_remarks` |  |
+| `vendor_remarks` | `used` |
+| `arc_contract_id` | `used` |
+| `reference_number` | `used` |
+| `supplier_remarks` |  |
+| `vendor_po_status` |  |
+| `payment_terms_dec` | `used` |
+| `delivery_terms_dec` | `used` |
+| `instruction_policy` |  |
+| `contact_person_name` |  |
+| `negotiation_remarks` |  |
+| `vendor_arc_document` |  |
+| `arc_vendor_master_id` | `used` |
+| `contact_person_email` |  |
+| `contact_person_number` | `used` |
+| `vendor_rfq_quotation_history` |  |
+| `vendor_arc_quotation_document` |  |
+| `updated_comparision_report` |  |
 
 
 ---
+
 
