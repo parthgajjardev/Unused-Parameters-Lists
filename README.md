@@ -2281,7 +2281,11 @@ customer/tender/tender_details
 ---
 
 
+
+
 # **`6️⃣ Purchase DMS`**
+
+
 
 > **List of unused parameters in the API (Pagination API) -** `customer/dmsdocument/getDocumentCollectionLists`
 > 
@@ -2382,16 +2386,17 @@ customer/tender/tender_details
 | `cust_emp_lname` | `used` |
 | `attachmentrecords` | `used` |
 | `release_records` | `used` |
-| **`created_at`** |  |
-| **`dms_id`** | `used` |
-| **`file_name`** | `used` |
-| **`file_type`** | `used` |
-| **`image_id`** | `used` |
-| **`image_url`** | `used` |
-| **`thumb_url`** | `used` |
-| **`updated_at`** |  |
+| `created_at` |  |
+| `dms_id` | `used` |
+| `file_name` | `used` |
+| `file_type` | `used` |
+| `image_id` | `used` |
+| `image_url` | `used` |
+| `thumb_url` | `used` |
+| `updated_at` |  |
 
 ---
+
 
 
 # **`7️⃣ Document Management System`**
@@ -2474,7 +2479,7 @@ customer/tender/tender_details
 | `dms_assignee_id` |  |
 | `dms_status` | `used` |
 | `is_deleted` | `used` |
-| `created_at` |  |
+| `created_at` | `used` |
 | `updated_at` |  |
 | `dms_document` |  |
 | `release_remarks` |  |
@@ -2531,54 +2536,110 @@ customer/tender/tender_details
 
 | **Parameters** | **Used/Unused** |
 | --- | --- |
-| request_id |  |
-| customer_id |  |
-| cust_emp_id |  |
-| collective_request_no |  |
-| request_form_id |  |
-| request_form_fields |  |
-| latitude |  |
-| longitude |  |
-| request_extra |  |
-| selection_type |  |
-| selection_view |  |
-| field_selection |  |
-| request_field |  |
-| request_field_id |  |
-| request_field_type |  |
-| request_data_exists |  |
-| request_field_value |  |
-| request_field_required |  |
-| request_status |  |
-| request_deleted |  |
-| request_assignee_id |  |
-| request_delete_reason |  |
-| request_document |  |
-| request_approval_document |  |
-| created_at |  |
-| updated_at |  |
-| release_remarks |  |
-| cust_emp_fname |  |
-| cust_emp_lname |  |
-| role_name |  |
-| release_records |  |
-| is_edit |  |
-| is_hold |  |
-| remarks |  |
-| is_delete |  |
-| is_return |  |
-| is_unread |  |
-| deleted_at |  |
-| level_name |  |
-| approved_at |  |
-| assignee_id |  |
-| emp_fullname |  |
-| approval_time |  |
-| approval_type |  |
-| approval_status |  |
-| is_already_used |  |
-| strategy_status |  |
-| approval_hold_at |  |
-| comparative_link |  |
-| approval_assigne_at |  |
-| workflow_approval_id |  |
+| `request_id` | `used` |
+| `customer_id` | `used` |
+| `cust_emp_id` | `used` |
+| `collective_request_no` | `used` |
+| `request_form_id` | `used` |
+| `request_form_fields` | `used` |
+| `latitude` | `used` |
+| `longitude` | `used` |
+| `request_extra` | `used` |
+| `selection_type` | `used` |
+| `selection_view` | `used` |
+| `field_selection` | `used` |
+| `request_field` | `used` |
+| `request_field_id` | `used` |
+| `request_field_type` | `used` |
+| `request_data_exists` |  |
+| `request_field_value` | `used` |
+| `request_field_required` | `used` |
+| `request_status` | `used` |
+| `request_deleted` | `used` |
+| `request_assignee_id` | `used` |
+| `request_delete_reason` |  |
+| `request_document` | `used` |
+| `request_approval_document` | `used` |
+| `created_at` | `used` |
+| `updated_at` |  |
+| `release_remarks` |  |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `role_name` | `used` |
+| `release_records` | `used` |
+| `is_edit` | `used` |
+| `is_hold` |  |
+| `remarks` | `used` |
+| `is_delete` |  |
+| `is_return` |  |
+| `is_unread` |  |
+| `deleted_at` |  |
+| `level_name` | `used` |
+| `approved_at` | `used` |
+| `assignee_id` | `used` |
+| `emp_fullname` | `used` |
+| `approval_time` |  |
+| `approval_type` | `used` |
+| `approval_status` | `used` |
+| `is_already_used` |  |
+| `strategy_status` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` |  |
+| `approval_assigne_at` |  |
+| `workflow_approval_id` | `used` |
+
+---
+
+> **List of unused parameters in the API (Pagination API) - `customer/requests_master/getDeletedRequestCollectionLists`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `request_id` | `used` |
+| `customer_id` | `used` |
+| `cust_emp_id` | `used` |
+| `collective_request_no` | `used` |
+| `request_form_id` | `used` |
+| `request_form_fields` | `used` |
+| `request_extra` | `used` |
+| `request_field` | `used` |
+| `request_field_id` | `used` |
+| `request_field_type` | `used` |
+| `request_field_value` | `used` |
+| `request_field_required` | `used` |
+| `request_status` | `used` |
+| `request_deleted` | `used` |
+| `request_assignee_id` | `used` |
+| `request_delete_reason` |  |
+| `request_document` | `used` |
+| `request_approval_document` | `used` |
+| `created_at` | `used` |
+| `updated_at` |  |
+| `release_remarks` |  |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `role_name` | `used` |
+| `release_records` | `used` |
+| `is_edit` | `used` |
+| `is_hold` |  |
+| `remarks` | `used` |
+| `is_delete` |  |
+| `is_return` |  |
+| `is_unread` |  |
+| `deleted_at` |  |
+| `level_name` | `used` |
+| `approved_at` | `used` |
+| `assignee_id` | `used` |
+| `emp_fullname` | `used` |
+| `remarks_text` |  |
+| `approval_time` |  |
+| `approval_type` | `used` |
+| `approval_status` | `used` |
+| `is_already_used` |  |
+| `strategy_status` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` |  |
+| `approval_assigne_at` |  |
+| `workflow_approval_id` | `used` |
+
+---
