@@ -2643,3 +2643,685 @@ customer/tender/tender_details
 | `workflow_approval_id` | `used` |
 
 ---
+
+
+
+
+# **`9️⃣ Workflow Management`**
+
+
+> **List of unused parameters in the API (Pagination API) - `customer/requestQuotation/getWorkflowRequestQuotationRecords`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `pr_rfq_id` | `used` |
+| `rfq_title` | `used` |
+| `is_enquiry_important` | `used` |
+| `is_return` | `used` |
+| `is_hold` | `used` |
+| `is_unread` | `used` |
+| `rfq_number` | `used` |
+| `rfq_deadline` | `used` |
+| `rfq_status` | `used` |
+| `is_deleted` | `used` |
+| `vendors_id` | `used` |
+| `collective_rfq_number` | `used` |
+| `tendor_type` | `used` |
+| `rfq_type` | `used` |
+| `rfq_date` | `used` |
+| `purchase_group_id` |  |
+| `created_by` |  |
+| `category_ids` |  |
+| `rfq_oc` |  |
+| `rfq_extend_status` |  |
+| `negotiation_deadlinedate` | `used` |
+| `is_show_negotiate` | `used` |
+| `approval_assign_id` |  |
+| `currency_detail` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `workflow_approval_id` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `workflow_createor_date` | `used` |
+| `approval_assigne_at` |  |
+| `rfq_work_apprpval_date` | `used` |
+| `workflow_approved_at` | `used` |
+| `workflow_assign_at` | `used` |
+| `pr_number` | `used` |
+| `total_queries` | `used` |
+| `unread_queries` | `used` |
+| `comparision_report` |  |
+| `comparitive_report` | `used` |
+| `technical_attachments` |  |
+| `materiallists` | `used` |
+| `purchase_request_material_id` | `used` |
+| `pr_id` | `used` |
+| `material_id` | `used` |
+| `material_code` | `used` |
+| `material_group_id` |  |
+| `material_group_code` |  |
+| `acc_assets_category_id` |  |
+| `category` |  |
+| `item_category_id` |  |
+| `item` |  |
+| `quantity` | `used` |
+| `unit_id` | `used` |
+| `unit` | `used` |
+| `total_price` |  |
+| `plant_id` |  |
+| `plant_code` |  |
+| `purchase_organization` |  |
+| `purchase_group_code` |  |
+| `tracking_number` |  |
+| `material_revision` |  |
+| `quantity_ordered` |  |
+| `quantity_open` |  |
+| `request_date` |  |
+| `release_date` |  |
+| `pl_delivery_time` |  |
+| `gr_proc_time` |  |
+| `delivery_text` |  |
+| `material_po_text` |  |
+| `process_status` |  |
+| `purchase_requisition_status` |  |
+| `order_qty` |  |
+| `uploading_point` |  |
+| `recipient` |  |
+| `g_l_account` |  |
+| `assets` |  |
+| `co_area` |  |
+| `assignment_order` |  |
+| `wbs_element` |  |
+| `funds_center` |  |
+| `created_at` | `used` |
+| `updated_at` | `used` |
+| `requisitioner` |  |
+| `requisitioner_name` | `used` |
+| `vendor_id` | `used` |
+| `vendor_detail` |  |
+| `goods_receipt` |  |
+| `invoice_receipt` |  |
+| `item_text` |  |
+| `item_note` |  |
+| `delivery_date` |  |
+| `initial_price` |  |
+| `rfq_delivery_date` |  |
+| `distribution` |  |
+| `material_specification` | `used` |
+| `service_detail` |  |
+| `pro_id` | `used` |
+| `ra_id` | `used` |
+| `maximum_price` |  |
+| `po_order_quantity` |  |
+| `is_materil_po_created` |  |
+| `sap_item` |  |
+| `arc_contract_id` | `used` |
+| `asking_price` |  |
+| `asking_quantity` |  |
+| `unit_price` |  |
+| `prm_publish_type` |  |
+| `prm_selected_vendors` |  |
+| `pending_quantity` |  |
+| `prm_end_date` |  |
+| `prm_ra_extenstion_counter` |  |
+| `fixed_qty` |  |
+| `material_name` | `used` |
+| `material_short_description` | `used` |
+| `quotationlists` | `used` |
+| `rfq_vendor_master_id` | `used` |
+| `customer_id` | `used` |
+| `vendor_rfq_document` |  |
+| `vendor_rfq_quotation_document` | `used` |
+| `cust_emp_id` | `used` |
+| `f_and_o_dec` |  |
+| `f_and_o` |  |
+| `payment_terms_dec` | `used` |
+| `payment_terms` |  |
+| `total_amount` | `used` |
+| `regret_remarks` |  |
+| `vendor_remarks` |  |
+| `supplier_remarks` |  |
+| `delivery_terms_dec` | `used` |
+| `delivery_terms` |  |
+| `quantity_terms` |  |
+| `reference_number` |  |
+| `contact_person_name` |  |
+| `contact_person_number` |  |
+| `vendor_rfq_quotation_history` | `used` |
+| `contact_person_email` |  |
+| `vendor_po_status` |  |
+| `vendor_code` | `used` |
+| `vendor_name` | `used` |
+| `workflow_history_records` |  |
+| `is_delete` |  |
+| `deleted_at` |  |
+| `approved_at` | `used` |
+| `approval_status` | `used` |
+| `comparative_link` | `used` |
+| `is_already_used` | `used` |
+| `remarks_text` | `used` |
+| `approval_time` |  |
+| `reminder_cron_run` |  |
+| `approval_hold_at` |  |
+| `emp_fullname` | `used` |
+
+---
+
+> **List of unused parameters in the API (Pagination API) - `customer/purchaseRequestOrder/getWorkflowGRNPORecords`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `poi_id` |  |
+| `pro_id` | `used` |
+| `index` |  |
+| `customer_id` | `used` |
+| `cust_emp_id` | `used` |
+| `vendor_id` | `used` |
+| `vendor_emp_id` |  |
+| `invoice_number` |  |
+| `invoice_price` |  |
+| `invoice_attachments` |  |
+| `invoice_pdf` |  |
+| `invoice_status` |  |
+| `is_deleted` | `used` |
+| `created_at` |  |
+| `updated_at` |  |
+| `invoice_date` |  |
+| `grn_number` | `used` |
+| `grn_date` | `used` |
+| `grn_approval_pdf` | `used` |
+| `grn_status` | `used` |
+| `assignee_id` | `used` |
+| `invoice_sgst` |  |
+| `invoice_cgst` |  |
+| `invoice_igst` |  |
+| `invoice_gst` |  |
+| `invoice_total` |  |
+| `next_assignee_ids` |  |
+| `is_auto_release` |  |
+| `sap_grn_attchments` |  |
+| `miro_number` |  |
+| `sap_grn_number` |  |
+| `collective_po_number` | `used` |
+| `sap_po_number` | `used` |
+| `po_status` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `workflow_approval_id` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `is_hold` | `used` |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `workflow_createor_date` | `used` |
+| `approval_assigne_at` | `used` |
+| `po_work_apprpval_date` |  |
+| `comparision_report` |  |
+| `workflow_history_records` | `used` |
+| `is_delete` |  |
+| `deleted_at` |  |
+| `approved_at` |  |
+| `emp_fullname` | `used` |
+| `remarks_text` | `used` |
+| `approval_time` |  |
+| `approval_status` | `used` |
+| `is_already_used` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` | `used` |
+| `po_workflow_type` |  |
+
+---
+
+> **List of unused parameters in the API (Pagination API) - `customer/arcQuotation/getWorkflowRequestQuotationRecords`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `arc_rfq_id` | `used` |
+| `arc_title` | `used` |
+| `arc_number` |  |
+| `arc_deadline` | `used` |
+| `arc_status` | `used` |
+| `is_deleted` |  |
+| `vendors_id` | `used` |
+| `collective_arc_number` | `used` |
+| `arc_tendor_type` |  |
+| `arc_type` | `used` |
+| `arc_date` | `used` |
+| `purchase_group_id` |  |
+| `created_by` | `used` |
+| `arc_type_code` |  |
+| `arc_oc` |  |
+| `arc_extend_status` |  |
+| `negotiation_deadlinedate` | `used` |
+| `is_show_negotiate` | `used` |
+| `approval_assign_id` | `used` |
+| `contract_name` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `is_hold` |  |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `is_enquiry_important` | `used` |
+| `workflow_approval_id` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `workflow_createor_date` | `used` |
+| `approval_assigne_at` |  |
+| `rfq_work_apprpval_date` | `used` |
+| `pr_number` | `used` |
+| `materiallists` | `used` |
+| `item` | `used` |
+| `unit` | `used` |
+| `pr_id` | `used` |
+| `assets` |  |
+| `pro_id` | `used` |
+| `co_area` |  |
+| `unit_id` |  |
+| `category` |  |
+| `plant_id` |  |
+| `quantity` | `used` |
+| `sap_item` |  |
+| `item_note` |  |
+| `item_text` |  |
+| `order_qty` |  |
+| `recipient` |  |
+| `vendor_id` | `used` |
+| `created_at` | `used` |
+| `updated_at` | `used` |
+| `attachments` | `used` |
+| `g_l_account` |  |
+| `material_id` |  |
+| `total_price` |  |
+| `wbs_element` |  |
+| `distribution` |  |
+| `funds_center` |  |
+| `gr_proc_time` |  |
+| `release_date` |  |
+| `request_date` |  |
+| `delivery_date` |  |
+| `delivery_text` |  |
+| `goods_receipt` |  |
+| `initial_price` |  |
+| `material_code` | `used` |
+| `material_name` | `used` |
+| `quantity_open` |  |
+| `requisitioner` |  |
+| `vendor_detail` |  |
+|  |  |
+| `process_status` |  |
+| `service_detail` |  |
+| `arc_category_id` |  |
+| `arc_contract_id` | `used` |
+| `invoice_receipt` |  |
+| `tracking_number` |  |
+| `uploading_point` |  |
+| `assignment_order` |  |
+| `item_category_id` |  |
+| `material_po_text` |  |
+| `pl_delivery_time` |  |
+| `quantity_ordered` |  |
+| `arc_category_name` | `used` |
+| `material_group_id` |  |
+| `material_revision` |  |
+| `po_order_quantity` |  |
+| `rfq_delivery_date` |  |
+| `requisitioner_name` |  |
+| `arc_sub_category_id` |  |
+| `material_group_code` |  |
+| `purchase_group_code` |  |
+| `arc_sub_category_name` | `used` |
+| `is_materil_po_created` |  |
+| `purchase_organization` |  |
+| `acc_assets_category_id` |  |
+| `material_specification` | `used` |
+| `arc_request_material_id` | `used` |
+| `material_short_description` | `used` |
+| `purchase_requisition_status` |  |
+| `annual_tentative_requirement` |  |
+| `total_queries` | `used` |
+| `unread_queries` | `used` |
+| `quotationlists` | `used` |
+| `f_and_o` |  |
+| `cust_emp_id` | `used` |
+| `customer_id` | `used` |
+| `f_and_o_dec` |  |
+| `gst_remarks` |  |
+| `vendor_code` | `used` |
+| `vendor_name` | `used` |
+| `total_amount` | `used` |
+| `payment_terms` |  |
+| `delivery_terms` |  |
+| `quantity_terms` |  |
+| `regret_remarks` |  |
+| `vendor_remarks` |  |
+| `reference_number` |  |
+| `supplier_remarks` |  |
+| `vendor_po_status` |  |
+| `payment_terms_dec` | `used` |
+| `delivery_terms_dec` | `used` |
+| `contact_person_name` |  |
+| `vendor_arc_document` |  |
+| `arc_vendor_master_id` |  |
+| `contact_person_email` |  |
+| `contact_person_number` |  |
+| `vendor_rfq_quotation_history` | `used` |
+| `vendor_arc_quotation_document` | `used` |
+| `comparision_report` |  |
+| `comparitive_report` | `used` |
+| `workflow_history_records` |  |
+| `is_delete` |  |
+| `deleted_at` |  |
+| `approved_at` | `used` |
+| `emp_fullname` | `used` |
+| `remarks_text` |  |
+| `approval_time` |  |
+| `approval_status` | `used` |
+| `is_already_used` |  |
+| `approval_hold_at` |  |
+| `comparative_link` | `used` |
+| `reminder_cron_run` |  |
+| `technical_attachments` |  |
+
+---
+
+> **List of unused parameters in the API (Pagination API) - `customer/arcContractOrder/getWorkflowPORecords`**
+> 
+
+| **Parametes** | **Used/Unused** |
+| --- | --- |
+| `arc_contract_id` | `used` |
+| `po_deadline` | `used` |
+| `po_status` | `used` |
+| `sap_po_number` | `used` |
+| `arc_tender_type` |  |
+| `arc_contract_start_date` |  |
+| `arc_contract_end_date` |  |
+| `is_deleted` | `used` |
+| `collective_arc_number` | `used` |
+| `po_type_name` |  |
+| `po_type_id` |  |
+| `po_type_code` |  |
+| `po_date` | `used` |
+| `purchase_group_id` |  |
+| `requisitioner_name` |  |
+| `po_comparitive_link` |  |
+| `po_comparitive_document_link` |  |
+| `po_assignee_id` |  |
+| `po_references` |  |
+| `po_reference_type` |  |
+| `vendor_id` |  |
+| `po_created_at` |  |
+| `header_text` |  |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `workflow_approval_id` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `is_hold` |  |
+| `is_return` |  |
+| `is_unread` | `used` |
+| `workflow_createor_date` | `used` |
+| `approval_assigne_at` |  |
+| `po_work_apprpval_date` |  |
+| `updated_comparision_report` | `used` |
+| `arc_rfq_details` | `used` |
+| `arc_rfq_id` | `used` |
+| `arc_status` |  |
+| `comparision_report` |  |
+| `workflow_history_records` |  |
+| `is_delete` |  |
+| `created_at` |  |
+| `deleted_at` |  |
+| `updated_at` |  |
+| `approved_at` |  |
+| `cust_emp_id` | `useed` |
+| `customer_id` | `used` |
+| `emp_fullname` |  |
+| `remarks_text` |  |
+| `approval_time` |  |
+| `approval_status` | `used` |
+| `is_already_used` |  |
+| `approval_hold_at` |  |
+| `comparative_link` | `used` |
+
+---
+
+> **List of unused parameters in the API (Pagination API) - `customer/dmsdocument/getDocumentWorkflowRelease`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `dms_id` | `used` |
+| `customer_id` | `used` |
+| `cust_emp_id` | `used` |
+| `document_type_id` |  |
+| `dms_number` | `used` |
+| `dms_assignee_id` |  |
+| `dms_status` | `used` |
+| `is_deleted` | `used` |
+| `created_at` | `used` |
+| `updated_at` |  |
+| `dms_document` | `used` |
+| `release_remarks` | `used` |
+| `ref_number` |  |
+| `dms_date` |  |
+| `dms_subject` | `used` |
+| `dms_description` |  |
+| `tender_ref` |  |
+| `tender_notice_ref` |  |
+| `dms_ref` |  |
+| `delete_remarks` |  |
+| `dept_id` | `used` |
+| `next_assignee_ids` |  |
+| `is_auto_release` |  |
+| `auction_ref` |  |
+| `document_name` | `used` |
+| `document_code` |  |
+| `drs_id` | `used` |
+| `is_hold` | `used` |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `workflow_createor_date` | `used` |
+| `approval_assigne_at` | `used` |
+| `rfq_work_apprpval_date` | `used` |
+| `attachmentrecords` |  |
+| `image_id` | `used` |
+| `file_name` |  |
+| `file_type` |  |
+| `image_url` |  |
+| `thumb_url` |  |
+| `release_records` | `used` |
+| `is_delete` |  |
+| `deleted_at` |  |
+| `approved_at` |  |
+| `assignee_id` |  |
+| `emp_fullname` | `used` |
+| `remarks_text` | `used` |
+| `approval_time` |  |
+| `approval_status` | `used` |
+| `is_already_used` | `used` |
+| `strategy_status` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` |  |
+| `workflow_history_records` | `used` |
+
+---
+
+> **List of unused parameters in the API (Pagination API) - `customer/dmsdocument/getDocumentWorkflowRelease`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `dms_id` | `used` |
+| `customer_id` | `used` |
+| `cust_emp_id` | `used` |
+| `document_type_id` |  |
+| `dms_number` | `used` |
+| `dms_assignee_id` |  |
+| `dms_status` | `used` |
+| `is_deleted` | `used` |
+| `created_at` | `used` |
+| `updated_at` |  |
+| `dms_document` | `used` |
+| `release_remarks` | `used` |
+| `ref_number` |  |
+| `dms_date` |  |
+| `dms_subject` | `used` |
+| `dms_description` |  |
+| `tender_ref` |  |
+| `tender_notice_ref` |  |
+| `dms_ref` |  |
+| `delete_remarks` |  |
+| `dept_id` | `used` |
+| `next_assignee_ids` |  |
+| `is_auto_release` |  |
+| `auction_ref` |  |
+| `document_name` | `used` |
+| `document_code` |  |
+| `drs_id` | `used` |
+| `is_hold` | `used` |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `workflow_createor_date` | `used` |
+| `approval_assigne_at` | `used` |
+| `rfq_work_apprpval_date` | `used` |
+| `attachmentrecords` | `used` |
+| `image_id` | `used` |
+| `file_name` |  |
+| `file_type` |  |
+| `image_url` |  |
+| `thumb_url` |  |
+| `release_records` | `used` |
+| `is_delete` |  |
+| `deleted_at` |  |
+| `approved_at` |  |
+| `assignee_id` |  |
+| `emp_fullname` | `used` |
+| `remarks_text` | `used` |
+| `approval_time` |  |
+| `approval_status` | `used` |
+| `is_already_used` | `used` |
+| `strategy_status` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` |  |
+| `workflow_history_records` | `used` |
+
+---
+
+> **List of unused parameters in the API (Pagination API) - `customer/requests_master/getRequestWorkflowRelease`**
+> 
+
+| **Parameter** | **Used/Unused** |
+| --- | --- |
+| `request_id` | `used` |
+| `customer_id` | `used` |
+| `cust_emp_id` | `used` |
+| `collective_request_no` | `used` |
+| `request_form_id` |  |
+| `request_form_fields` |  |
+| `latitude` |  |
+| `longitude` |  |
+| `request_extra` |  |
+| `max` |  |
+| `min` |  |
+| `selection_type` |  |
+| `selection_view` |  |
+| `field_selection` |  |
+| `request_field` |  |
+| `request_field_id` |  |
+| `request_field_type` |  |
+| `request_field_value` |  |
+| `name` | `used` |
+| `fileType` |  |
+| `file_url` |  |
+| `contentType` |  |
+| `request_field_required` |  |
+| `request_status` | `used` |
+| `request_deleted` | `used` |
+| `request_assignee_id` |  |
+| `request_delete_reason` |  |
+| `request_document` | `used` |
+| `request_approval_document` | `used` |
+| `created_at` | `used` |
+| `updated_at` |  |
+| `release_remarks` |  |
+| `is_hold` | `used` |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `workflow_approval_id` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `workflow_createor_date` | `used` |
+| `approval_assigne_at` | `used` |
+| `rfq_work_apprpval_date` | `used` |
+| `release_records` | `used` |
+| `is_edit` |  |
+| `is_delete` |  |
+| `is_already_used` | `used` |
+| `strategy_status` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` |  |
+| `workflow_history_records` | `used` |
+| `is_edit` |  |
+| `is_hold` | `used` |
+| `remarks` | `used` |
+| `is_delete` |  |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `created_at` | `used` |
+| `deleted_at` |  |
+| `level_name` | `used` |
+| `request_id` | `used` |
+| `updated_at` |  |
+| `approved_at` |  |
+| `assignee_id` |  |
+| `emp_fullname` | `used` |
+| `remarks_text` | `used` |
+| `approval_time` |  |
+| `approval_type` | `used` |
+| `approval_status` | `used` |
+| `is_already_used` | `used` |
+| `strategy_status` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` |  |
+| `approval_assigne_at` | `used` |
+| `workflow_approval_id` | `used` |
+| `workflow_history_records` | `used` |
+| `is_edit` |  |
+| `is_hold` | `used` |
+| `remarks` | `used` |
+| `is_delete` |  |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `created_at` | `used` |
+| `deleted_at` |  |
+| `level_name` | `used` |
+| `request_id` | `used` |
+| `updated_at` |  |
+| `approved_at` |  |
+| `assignee_id` |  |
+| `emp_fullname` | `used` |
+| `remarks_text` | `used` |
+| `approval_time` |  |
+| `approval_status` | `used` |
+| `approval_hold_at` |  |
+| `approval_assigne_at` | `used` |
+
+---
+
+
