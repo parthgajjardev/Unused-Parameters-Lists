@@ -2528,6 +2528,55 @@ customer/tender/tender_details
 ---
 
 
+> **List of unused parameters in the API (Staff List) - `customer/dmsdocument/getApprovalEmployees`**
+> 
+
+**`dmsService.getApprovalEmployees`**
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `role_id` |  |
+| `role_name` |  |
+| `role_default` |  |
+| `role_higher` |  |
+| `employees` | `used` |
+| `cust_emp_id` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `cust_emp_prefix` | `used` |
+| `cust_emp_email` |  |
+| `ceb_prefix` |  |
+| `ceb_id` |  |
+| `cust_plant_ids` |  |
+| `emp_verified` |  |
+| `is_active` |  |
+| `is_delete` |  |
+| `is_tracking` |  |
+| `role_name` |  |
+| `role_id` |  |
+| `role_higher` |  |
+| `access_modules` |  |
+| `code` |  |
+| `title` |  |
+| `dept_id` |  |
+| `group_id` |  |
+| `childrens` |  |
+| `title` |  |
+| `children` |  |
+| `code` |  |
+| `title` |  |
+| `group_id` |  |
+| `isSelected` |  |
+| `access_code` |  |
+| `group_id` |  |
+| `isSelected` |  |
+| `dept_name` |  |
+| `isSelected` |  |
+| `access_code` |  |
+
+---
+
+
 # **`8️⃣ Request Management`**
 
 
