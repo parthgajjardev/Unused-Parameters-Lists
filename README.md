@@ -3325,3 +3325,79 @@ customer/tender/tender_details
 ---
 
 
+
+> **List of unused parameters in the API (Pagination API) - `customer/purchaseRequestOrder/getWorkflowPORecords`**
+> 
+
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `pro_id` | `used` |
+| `po_deadline` | `used` |
+| `po_status` | `used` |
+| `is_deleted` | `used` |
+| `sap_po_number` | `used` |
+| `collective_po_number` | `used` |
+| `po_type_name` |  |
+| `po_type_id` |  |
+| `po_type_code` |  |
+| `po_date` | `used` |
+| `purchase_group_id` |  |
+| `requisitioner_name` |  |
+| `po_comparitive_link` | `used` |
+| `po_comparitive_document_link` |  |
+| `po_assignee_id` |  |
+| `po_references` |  |
+| `po_reference_type` |  |
+| `vendor_id` | `used` |
+| `po_created_at` |  |
+| `header_text` |  |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `workflow_approval_id` | `used` |
+| `is_hold` | `used` |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `approval_assigne_at` | `used` |
+| `remarks` | `used` |
+| `approval_type` | `used` |
+| `level_name` | `used` |
+| `workflow_createor_date` | `used` |
+| `po_work_apprpval_date` |  |
+| `pr_number` | `used` |
+| `rfq_details` | `used` |
+| `pr_rfq_id` | `used` |
+| `rfq_status` |  |
+| `collective_rfq_number` | `used` |
+| `updated_comparision_report` | `used` |
+| `arc_rfq_details` | `used` |
+| `comparision_report` |  |
+| `workflow_history_records` | `used` |
+| `poi_id` | `used` |
+| `pro_id` | `used` |
+| `is_hold` | `used` |
+| `remarks` | `used` |
+| `is_delete` |  |
+| `is_return` | `used` |
+| `is_unread` | `used` |
+| `created_at` |  |
+| `deleted_at` |  |
+| `level_name` | `used` |
+| `updated_at` |  |
+| `approved_at` |  |
+| `cust_emp_id` | `used` |
+| `customer_id` | `used` |
+| `emp_fullname` | `used` |
+| `approval_time` |  |
+| `approval_type` | `used` |
+| `approval_status` | `used` |
+| `is_already_used` | `used` |
+| `approval_hold_at` |  |
+| `comparative_link` | `used` |
+| `po_workflow_type` | `used` |
+| `approval_assigne_at` | `used` |
+| `workflow_approval_id` | `used` |
+
+
+---
+
