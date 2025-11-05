@@ -3401,3 +3401,69 @@ customer/tender/tender_details
 
 ---
 
+
+
+# **`🔟 Staff Management`**
+
+
+> **List of unused parameters in the API (Pagination API) - `customer/employee/getEmployees`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `role_name` | `used` |
+| `role_id` | `used` |
+| `role_higher` | `used` |
+| `role_default` | `used` |
+| `employees` | `used` |
+| `cust_emp_id` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `cust_emp_email` | `used` |
+| `cust_emp_prefix` | `used` |
+| `cust_emp_password` |  |
+| `cust_emp_phone` | `used` |
+| `cust_emp_dept_ids` |  |
+| `cust_emp_images` |  |
+| `cust_emp_thumbs` | `used` |
+| `created_at` |  |
+| `updated_at` |  |
+| `customer_ids` |  |
+| `cust_emp_role_id` | `used` |
+| `cust_zone_ids` | `used` |
+| `cust_outlet_ids` | `used` |
+| `cust_city_ids` | `used` |
+| `is_accepted` |  |
+| `cust_emp_country_code` | `used` |
+| `device_token` |  |
+| `device_type` |  |
+| `cust_emp_country` | `used` |
+| `customer_loggedin_id` |  |
+| `is_hidden` |  |
+| `device_tokens` |  |
+| `ios` |  |
+| `android` |  |
+| `instruction_policy` |  |
+| `cust_plant_ids` | `used` |
+| `cust_emp_sign` |  |
+| `cust_emp_sign_image` |  |
+| `cust_emp_secondary_email` | `used` |
+| `arc_instruction_policy` |  |
+| `po_instruction_policy` |  |
+| `tender_instruction_policy` |  |
+| `last_login` |  |
+| `last_logout` |  |
+| `allow_out_access` | `used` |
+| `ceb_id` |  |
+| `password_updated_date` | `used` |
+| `staff_tender_types` | `used` |
+| `emp_verified` | `used` |
+| `is_active` | `used` |
+| `is_delete` | `used` |
+| `is_tracking` | `used` |
+| `role_name` | `used` |
+| `role_id` | `used` |
+| `role_higher` | `used` |
+| `token` | `used` |
+
+---
