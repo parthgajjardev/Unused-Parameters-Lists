@@ -3516,3 +3516,161 @@ customer/tender/tender_details
 | `token` | `used` |
 
 ---
+
+
+> **List of unused parameters in the API (Edit staff API) - `customer/employee/getEmployee`**
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `cust_emp_id` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `cust_emp_email` | `used` |
+| `cust_emp_secondary_email` | `used` |
+| `cust_emp_prefix` |  |
+| `cust_emp_country_code` | `used` |
+| `cust_emp_country` | `used` |
+| `cust_emp_phone` | `used` |
+| `cust_emp_role_id` | `used` |
+| `cust_emp_dept_ids` |  |
+| `cust_emp_images` |  |
+| `cust_emp_thumbs` |  |
+| `device_type` |  |
+| `created_at` |  |
+| `updated_at` |  |
+| `customer_ids` |  |
+| `cust_zone_ids` | `used` |
+| `cust_outlet_ids` | `used` |
+| `cust_city_ids` | `used` |
+| `cust_plant_ids` | `used` |
+| `is_accepted` |  |
+| `customer_loggedin_id` |  |
+| `is_hidden` |  |
+| `instruction_policy` |  |
+| `cust_emp_sign` |  |
+| `cust_emp_sign_image` |  |
+| `arc_instruction_policy` |  |
+| `po_instruction_policy` |  |
+| `tender_instruction_policy` |  |
+| `allow_out_access` |  |
+| `last_login` |  |
+| `last_logout` |  |
+| `isOwner` | `used` |
+| `is_default_role` | `used` |
+| `is_higher_role` |  |
+| `is_active` | `used` |
+| `ceb_prefix` | `used` |
+| `role_id` | `used` |
+| `role_name` | `used` |
+| `role_default` | `used` |
+| `role_higher` | `used` |
+
+---
+
+
+# **`1️⃣1️⃣Vendor Management`**
+
+
+> **List of unused parameters in the API (Pagination API) - `customer/vendor/listPagination`**
+> 
+
+| `vendor_id` | `used` |
+| --- | --- |
+| `vendor_phone` | `used` |
+| `vendor_images` |  |
+| `vendor_thumbs` |  |
+| `vendor_cumtomer_ids` |  |
+| `vendor_emp_ids` |  |
+| `vendor_active` |  |
+| `vendor_deleted` |  |
+| `created_at` | `used` |
+| `updated_at` | `used` |
+| `vendor_unique_id` |  |
+| `vendor_street` | `used` |
+| `vendor_zipcode` | `used` |
+| `vendor_main_employee` | `used` |
+| `vendor_contract` |  |
+| `vendor_email` | `used` |
+| `vendor_name` | `used` |
+| `vendor_country` | `used` |
+| `vendor_country_code` | `used` |
+| `vendor_state` | `used` |
+| `vendor_city` | `used` |
+| `vendor_nickname` | `used` |
+| `vendor_status` |  |
+| `vendor_emp_count` |  |
+| `vendor_prefix` |  |
+| `vendor_currency_symbol` |  |
+| `prefix_change` |  |
+| `checklist_pref` |  |
+| `is_pending_comp_service` |  |
+| `pending_comp_cron_time` |  |
+| `is_pending_comp_cron` |  |
+| `deactivated_customers` |  |
+| `vendor_tz` |  |
+| `user_profile_show_verndor` |  |
+| `service_provider_id` |  |
+| `vendor_category_id` | `used` |
+| `vendor_office_tel` | `used` |
+| `vendor_field_area` |  |
+| `vendor_attachement` | `used` |
+| `vendor_attachement_thumb` |  |
+| `vendor_gst` | `used` |
+| `vendor_gst_thumb` |  |
+| `vendor_pan` | `used` |
+| `vendor_pan_thumb` |  |
+| `vendor_cheque` | `used` |
+| `vendor_cheque_thumb` |  |
+| `vandor_bank_acc_no` | `used` |
+| `vendor_bank_name` | `used` |
+| `vendor_bank_address` | `used` |
+| `vendor_bank_city` | `used` |
+| `vendor_bank_branch` |  |
+| `vendor_bank_ifsc` | `used` |
+| `vendor_bank_branch_code` | `used` |
+| `vendor_code` | `used` |
+| `vendor_district` | `used` |
+| `vendor_fax` | `used` |
+| `vendor_gst_no` | `used` |
+| `vendor_pan_no` | `used` |
+| `vendor_contact_person` |  |
+| `utr_ref` | `used` |
+| `utr_date` | `used` |
+| `utr_amount` | `used` |
+| `utr_bank` | `used` |
+| `utr_attachments` | `used` |
+| `deleted_customers` |  |
+| `vendor_product` |  |
+| `vendor_emp_id` | `used` |
+| `first_name` |  |
+| `last_name` | `used` |
+| `verified` |  |
+| `vendor_form_fields` | `used` |
+| `latitude` | `used` |
+| `longitude` | `used` |
+| `vendor_extra` | `used` |
+| `max` |  |
+| `min` |  |
+| `selection_type` | `used` |
+| `selection_view` |  |
+| `field_selection` |  |
+| `additional_field` | `used` |
+| `additional_field_date` | `used` |
+| `additional_field_certificate_number` | `used` |
+| `vendor_field` | `used` |
+| `vendor_field_id` | `used` |
+| `vendor_field_date` | `used` |
+| `vendor_field_type` | `used` |
+| `vendor_field_value` | `used` |
+| `vendor_field_required` |  |
+| `vendor_field_attachments` | `used` |
+| `vendor_field_vendor_edit` |  |
+| `vendor_field_customer_edit` |  |
+| `vendor_field_vendor_notify` |  |
+| `vendor_field_certificate_number` | `used` |
+| `validity_documents` | `used` |
+| `is_vendor_active_for_customer` |  |
+
+---
+
