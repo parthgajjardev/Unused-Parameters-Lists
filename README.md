@@ -1,7 +1,7 @@
 # Unused-Parameters-Lists
 
 
-## **`1️⃣ RFQ (Request for Quotation)`**
+## **`1. RFQ (Request for Quotation)`**
 
 # Unused Parameters
 
@@ -327,8 +327,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API `customer/requestQuotation/getRequestQuotationRFQDetails`**
 > 
 
-**Date: 14/10/25**
-
 | **Parameter** | **Used / Unused** |
 | --- | --- |
 | `rfq_number` | `✅used` |
@@ -399,8 +397,6 @@ customer/tender/tender_details
 
 > **List of unused parameters in the API (which is called when opening a specific RFQ Detail drawer) `customer/requestQuotation/get_rfq_details`**
 
-
-**Date: 14/10/25**
 
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
@@ -562,8 +558,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API -  `customer/requestQuotation/comparisionRFQApproverHistory`**
 
 
-**Date: 14/10/25**
-
 | **#** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
 | 1 | `workflow_approval_id` | `✅Used` |
@@ -676,8 +670,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - (called during componentDidMount) -**  `customer/vendor/listPagination`
 
 
-**Date: 15/10/25**
-
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
 | 1 | vendor_id | used |
@@ -759,8 +751,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - (called during componentDidMount) -**  `customer/material/getMaterialRecords`
 
 
-**Date: 15/10/25**
-
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
 | `1` | `material_id` | `used` |
@@ -793,13 +783,11 @@ customer/tender/tender_details
 
 -------------------------
 
-## `2️⃣` **`Purchase Request`**
+## **`2. Purchase Request`**
 
 
 > **List of unused parameters in the API - (called during componentDidMount / Pagination ) -  `customer/purchaseRequest/getPurchaseRequestLists`**
 
-
-**Date: 15/10/25**
 
 | **#** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
@@ -842,8 +830,6 @@ customer/tender/tender_details
 
 > **List of unused parameters in the API - (called during componentDidMount / Pagination ) -** `customer/purchaseRequest/getRFQPurchaseRequestLists`
 
-
-**Date: 15/10/25**
 
 | # | Parameter | Used/Unused |
 | --- | --- | --- |
@@ -958,8 +944,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - (called during componentDidMount / Pagination ) - `customer/purchaseRequest/getDeletedPurchaseRequestLists`**
 
 
-**Date: 15/10/25**
-
 | **#** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
 | 1 | pr_id |  |
@@ -997,8 +981,6 @@ customer/tender/tender_details
 
 > **List of unused parameters in the API - (called during open specific PR Details ) -** `customer/purchaseRequest/getPurchaseRequestDetails`
 
-
-**Date: 15/10/25**
 
 | **No** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
@@ -1122,8 +1104,6 @@ customer/tender/tender_details
 
 > **List of unused parameters in the API - (called during click on Print PR button in Side Drawer) - `customer/purchaseRequest/getPurchaseRequestRecordsLists`**
 
-
-**Date: 16/10/25**
 
 | **No** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
@@ -1310,12 +1290,10 @@ customer/tender/tender_details
 -------------------------
 
 
-# **`3️⃣ Purchase Order`**
+# **`3. Purchase Order`**
 
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getPurchaseOrderLists`**
 
-
-**Date: 16/10/25**
 
 | **No** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
@@ -1371,8 +1349,6 @@ customer/tender/tender_details
 
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getPurchaseOrderListDetails`**
 
-
-**Date: 16/10/25**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -1572,8 +1548,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getAdvancePaymentRecordLists`**
 
 
-**Date: 16/10/25**
-
 | **Parameter** | **Used/Unused** |
 | --- | --- |
 | **papl_id** | used |
@@ -1597,13 +1571,12 @@ customer/tender/tender_details
 
 
 
-# **`4️⃣ ARC`**
+# **`4. ARC`**
 
 
 > **List of unused parameters in the API - `customer/arcQuotation/getRFQlis`**
 > 
 
-**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -1652,7 +1625,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - `customer/arcQuotation/get_rfq_details`**
 
 
-**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -1809,7 +1781,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - `customer/arcQuotation/comparisionRFQApproverHistory`**
 
 
-**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -1846,7 +1817,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - `customer/arcQuotation/getDeleteRequestQuotation`**
 
 
-**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -1877,7 +1847,6 @@ customer/tender/tender_details
 > **List of unused parameters in the API - `customer/arcQuotation/getRequestQuotationARCDetails`**
 
 
-**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -2019,7 +1988,8 @@ customer/tender/tender_details
 -------------------------
 
 
-# **`5️⃣ ARC Contract`**
+
+# **`5. ARC Contract`**
 
 
 
@@ -2399,7 +2369,7 @@ customer/tender/tender_details
 
 
 
-# **`7️⃣ Document Management System`**
+# **`7. Document Management System`**
 
 
 > **List of unused parameters in the API (Pagination API) - `customer/dmsdocument/getDocumentCollectionLists`**
@@ -2577,7 +2547,7 @@ customer/tender/tender_details
 ---
 
 
-# **`8️⃣ Request Management`**
+# **`8. Request Management`**
 
 
 > **List of unused parameters in the API (Pagination API) - `customer/requests_master/getRequestsCollectionLists`**
@@ -2696,7 +2666,7 @@ customer/tender/tender_details
 
 
 
-# **`9️⃣ Workflow Management`**
+# **`9. Workflow Management`**
 
 
 > **List of unused parameters in the API (Pagination API) - `customer/requestQuotation/getWorkflowRequestQuotationRecords`**
@@ -3452,7 +3422,7 @@ customer/tender/tender_details
 
 
 
-# **`🔟 Staff Management`**
+# **`10. Staff Management`**
 
 
 > **List of unused parameters in the API (Pagination API) - `customer/employee/getEmployees`**
@@ -3569,7 +3539,7 @@ customer/tender/tender_details
 ---
 
 
-# **`1️⃣1️⃣Vendor Management`**
+# **`11. Vendor Management`**
 
 
 > **List of unused parameters in the API (Pagination API) - `customer/vendor/listPagination`**
