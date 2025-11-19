@@ -6,7 +6,172 @@
 # Unused Parameters
 
 > List of Unused Parameters from this API (Pagination Table API) - **`customer/requestQuotation/getRFQlist`**
- 
+
+**Parameters** | **Used/Unused** |
+| --- | --- |
+| `pr_rfq_id` | `used` |
+| `rfq_number` | `used` |
+| `rfq_deadline` | `used` |
+| `rfq_status` | `used` |
+| `is_deleted` | `used` |
+| `vendors_id` | `used` |
+| `special_vendor_ids` | `used` |
+| `vendor_email_ids` |  |
+| `collective_rfq_number` | `used` |
+| `tendor_type` | `used` |
+| `rfq_type` | `used` |
+| `rfq_date` | `used` |
+| `purchase_group_id` |  |
+| `created_by` | `used` |
+| `category_ids` |  |
+| `rfq_oc` |  |
+| `rfq_extend_status` | `used` |
+| `negotiation_deadlinedate` | `used` |
+| `is_show_negotiate` | `used` |
+| `currency_detail` | `used` |
+|  |  |
+| `technical_emp_id` |  |
+| `mail_text` |  |
+| `technical_emp_detail` |  |
+| `cust_emp_email` |  |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `cust_emp_phone` |  |
+| `cust_emp_dial_code` |  |
+| `extend_count` | `used` |
+| `rfq_title` | `used` |
+| `pr_number` | `used` |
+| `requisitioner_names` | `used` |
+| `total_queries` | `used` |
+| `unread_queries` | `used` |
+| `quotationlists` | `used` |
+| `pro_id` |  |
+| `f_and_o` |  |
+| `pr_rfq_id` | `used` |
+| `vendor_id` | `used` |
+| `created_at` | `used` |
+| `is_deleted` |  |
+| `rfq_number` | `used` |
+| `rfq_status` |  |
+| `updated_at` |  |
+| `cust_emp_id` |  |
+| `customer_id` |  |
+| `f_and_o_dec` |  |
+| `vendor_code` | `used` |
+| `vendor_name` | `used` |
+| `total_amount` |  |
+| `vendor_email` |  |
+| `vendor_phone` |  |
+| `payment_terms` |  |
+| `total_queries` | `used` |
+| `delivery_terms` |  |
+| `quantity_terms` |  |
+| `regret_remarks` |  |
+| `unread_queries` | `used` |
+| `vendor_remarks` |  |
+| `reference_number` |  |
+| `supplier_remarks` |  |
+| `vendor_po_status` |  |
+| `payment_terms_dec` | `used` |
+| `delivery_terms_dec` | `used` |
+| `contact_person_name` |  |
+| `vendor_rfq_document` |  |
+| `contact_person_email` |  |
+| `rfq_vendor_master_id` | `used` |
+| `contact_person_number` |  |
+| `vendor_rfq_quotation_history` | `used` |
+| `vendor_rfq_quotation_document` | `used` |
+| `materiallists` | `used` |
+| `purchase_request_material_id` | `used` |
+| `pr_id` | `used` |
+| `material_id` | `used` |
+| `material_code` | `used` |
+| `material_group_id` |  |
+| `material_group_code` |  |
+| `acc_assets_category_id` |  |
+| `category` |  |
+| `item_category_id` |  |
+| `item` |  |
+| `quantity` | `used` |
+| `unit_id` |  |
+| `unit` | `used` |
+| `total_price` |  |
+| `plant_id` |  |
+| `plant_code` |  |
+| `purchase_organization` |  |
+| `purchase_group_id` |  |
+| `purchase_group_code` |  |
+| `tracking_number` |  |
+| `material_revision` |  |
+| `quantity_ordered` |  |
+| `quantity_open` |  |
+| `request_date` |  |
+| `release_date` |  |
+| `pl_delivery_time` |  |
+| `gr_proc_time` |  |
+| `delivery_text` |  |
+| `material_po_text` |  |
+| `process_status` |  |
+| `purchase_requisition_status` |  |
+| `order_qty` |  |
+| `uploading_point` |  |
+| `recipient` |  |
+| `g_l_account` |  |
+| `assets` |  |
+| `co_area` |  |
+| `assignment_order` |  |
+| `wbs_element` |  |
+| `funds_center` |  |
+| `is_deleted` |  |
+| `created_at` |  |
+| `updated_at` |  |
+| `requisitioner` |  |
+| `requisitioner_name` | `used` |
+| `pr_rfq_id` | `used` |
+| `vendor_id` | `used` |
+| `vendor_detail` |  |
+| `goods_receipt` |  |
+| `invoice_receipt` |  |
+| `item_text` |  |
+| `item_note` |  |
+| `delivery_date` |  |
+| `initial_price` |  |
+| `rfq_delivery_date` |  |
+| `distribution` |  |
+| `material_specification` |  |
+| `service_detail` |  |
+| `pro_id` |  |
+| `ra_id` |  |
+| `maximum_price` |  |
+| `po_order_quantity` |  |
+| `is_materil_po_created` |  |
+| `sap_item` |  |
+| `arc_contract_id` |  |
+| `prm_publish_type` |  |
+| `prm_selected_vendors` |  |
+| `asking_price` |  |
+| `asking_quantity` |  |
+| `pending_quantity` |  |
+| `prm_end_date` |  |
+| `prm_ra_extenstion_counter` |  |
+| `fixed_qty` |  |
+| `material_name` | `used` |
+| `material_short_description` | `used` |
+| `vendorqueries` |  |
+| `attachments` | `used` |
+| `pr_id` |  |
+| `pro_id` |  |
+| `image_id` |  |
+| `file_name` | `used` |
+| `file_type` | `used` |
+| `image_url` | `used` |
+| `pr_rfq_id` | `used` |
+| `thumb_url` | `used` |
+| `created_at` | `used` |
+| `updated_at` | `used` |
+| `purchase_request_material_id` | `used` |
+
+---
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
@@ -3644,3 +3809,458 @@ customer/tender/tender_details
 
 ---
 
+
+# **`12. Tender Management`**
+
+> **List of unused parameters in the API (Pagination API) -** `customer/tender/list_tender`
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| `tender_id` | `used` |
+| `customer_id` | `used` |
+| `cust_emp_id` | `used` |
+| `tender_type_id` | `used` |
+| `tender_status` | `used` |
+| `collective_tender_no` | `used` |
+| `tender_ref_name` | `used` |
+| `tender_subject` | `used` |
+| `tender_application_amount` | `used` |
+| `tender_advertisement` | `used` |
+| `tender_advertisement_order_by` | `used` |
+| `tender_advertisement_pdf` |  |
+| `tender_advertisement_pdf_pages` |  |
+| `tender_dates_pdf` |  |
+| `tender_dates_pdf_pages` |  |
+| `tender_preface` | `used` |
+| `tender_preface_pdf` |  |
+| `tender_preface_pdf_pages` |  |
+| `tender_corresponder_pdf` |  |
+| `tender_corresponder_pdf_pages` |  |
+| `tender_instruction_for_bid` | `used` |
+| `tender_instruction_for_bid_pdf` |  |
+| `tender_instruction_for_bid_pdf_pages` |  |
+| `tender_eligibility_criteria` | `used` |
+| `tender_eligibility_criteria_pdf` |  |
+| `tender_eligibility_criteria_pdf_pages` |  |
+| `tender_general_terms` | `used` |
+| `tender_general_terms_pdf` |  |
+| `tender_general_terms_pdf_pages` |  |
+| `tender_download_notification` | `used` |
+| `tender_download_notification_pdf` |  |
+| `tender_download_notification_pdf_pages` |  |
+| `tender_index_pdf` |  |
+| `tender_index_pdf_pages` |  |
+| `tender_download_pdf` | `used` |
+| `tender_full_pdf` | `used` |
+| `is_deleted` |  |
+| `created_at` |  |
+| `updated_at` | `used` |
+| `tender_publish_date` | `used` |
+| `save_inprogress` | `used` |
+| `current_assignee` |  |
+| `tender_download_pdf_approval` |  |
+| `approval_pdf` | `used` |
+| `tender_full_pdf_approval` |  |
+| `tender_dms_ref` |  |
+| `tender_pr_ref` | `used` |
+| `tender_publish_approval_pdf` |  |
+| `tender_technical_approval_pdf` |  |
+| `tender_commercial_approval_pdf` |  |
+| `tender_common_approval_pdf` |  |
+| `tender_bid_type` | `used` |
+| `comparitive_path` | `used` |
+| `technical_path` | `used` |
+| `commerial_path` | `used` |
+| `notifier_staff` | `used` |
+| `acc_no` | `used` |
+| `acc_name` | `usedused` |
+| `bank_name` |  |
+| `ifsc_code` | `used` |
+| `bd_id` | `used` |
+| `attachments` | `used` |
+| `tender_bank_details_pdf` |  |
+| `tender_bank_details_pdf_pages` |  |
+| `tender_application_amount_remarks` | `used` |
+| `emd_amount` | `used` |
+| `emd_amount_remarks` | `used` |
+| `tender_validity_minimum` | `used` |
+| `tender_validity_maximum` |  |
+| `note_ref` | `used` |
+| `note_ref_attachments` | `used` |
+| `tender_cancel_reason` | `used` |
+| `tender_delete_reason` | `used` |
+| `tender_publish_type` | `used` |
+| `selected_vendors` | `used` |
+| `department_name` | `used` |
+| `negotiation_deadlinedate` | `used` |
+| `negotiation_remarks` | `used` |
+| `is_show_negotiate` |  |
+| `previous_tender_status` |  |
+| `clarification_attachments` | `used` |
+| `payment_terms` | `used` |
+| `technical_opener` | `used` |
+| `commercial_opener` | `used` |
+| `comparitive_opener` | `used` |
+| `notes_pdf` |  |
+| `prs_pdf` |  |
+| `tender_special_terms` | `used` |
+| `tender_special_terms_pdf` |  |
+| `tender_special_terms_pdf_pages` |  |
+| `checklist_items` | `used` |
+| `technical_eligible_vendor` | `used` |
+| `approval_price_type` | `used` |
+| `is_warning` | `used` |
+| `generate_start_on` |  |
+| `special_vendor_ids` | `used` |
+| `tender_type_name` | `used` |
+| `tender_type_code` | `used` |
+| `approved_date` | `used` |
+| `total_queries` | `used` |
+| `pr_number` | `used` |
+| `unread_queries` | `used` |
+| `tender_dates` | `used` |
+| `date_name` | `used` |
+| `isdefault` | `used` |
+| `order_key` | `used` |
+| `date_value` | `used` |
+| `isapplicable` | `used` |
+| `tender_date_id` | `used` |
+| `isdefaultapplicable` | `used` |
+| `current_level` |  |
+| `emp_fullname` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `email` | `used` |
+| `role_name` | `used` |
+| `technical_emp_fullname` | `used` |
+| `technical_emp_prefix` | `used` |
+| `technical_cust_emp_fname` |  |
+| `technical_cust_emp_lname` |  |
+| `technical_email` |  |
+| `technical_role_name` |  |
+| `commercial_emp_fullname` | `used` |
+| `commercial_emp_prefix` | `used` |
+| `commercial_cust_emp_fname` |  |
+| `commercial_cust_emp_lname` |  |
+| `commercial_email` |  |
+| `commercial_role_name` |  |
+| `comparitive_emp_fullname` | `used` |
+| `comparitive_emp_prefix` | `used` |
+| `comparitive_cust_emp_fname` |  |
+| `comparitive_cust_emp_lname` |  |
+| `comparitive_email` |  |
+| `comparitive_role_name` |  |
+| `po_attachments` | `used` |
+| `oem_vendor_count` | `used` |
+| `bidder_vendor_count` | `used` |
+
+---
+
+> **List of unused parameters in the API (Specifi Tender Open API) -** `customer/tender/tender_details`
+> 
+
+| **Parameters** | **Used/Unused** |
+| --- | --- |
+| tender_id |  |
+| customer_id |  |
+| cust_emp_id |  |
+| tender_type_id |  |
+| tender_status |  |
+| collective_tender_no |  |
+| tender_ref_name |  |
+| tender_subject |  |
+| tender_application_amount |  |
+| tender_advertisement |  |
+| tender_advertisement_order_by |  |
+| tender_advertisement_pdf |  |
+| tender_advertisement_pdf_pages |  |
+| tender_dates_pdf |  |
+| tender_dates_pdf_pages |  |
+| tender_preface |  |
+| tender_preface_pdf |  |
+| tender_preface_pdf_pages |  |
+| tender_corresponder_pdf |  |
+| tender_corresponder_pdf_pages |  |
+| tender_instruction_for_bid |  |
+| tender_instruction_for_bid_pdf |  |
+| tender_instruction_for_bid_pdf_pages |  |
+| tender_eligibility_criteria |  |
+| tender_eligibility_criteria_pdf |  |
+| tender_eligibility_criteria_pdf_pages |  |
+| tender_general_terms |  |
+| tender_general_terms_pdf |  |
+| tender_general_terms_pdf_pages |  |
+| tender_download_notification |  |
+| tender_download_notification_pdf |  |
+| tender_download_notification_pdf_pages |  |
+| tender_index_pdf |  |
+| tender_index_pdf_pages |  |
+| tender_download_pdf |  |
+| tender_full_pdf |  |
+| is_deleted |  |
+| created_at |  |
+| updated_at |  |
+| tender_publish_date |  |
+| save_inprogress |  |
+| current_assignee |  |
+| tender_download_pdf_approval |  |
+| approval_pdf |  |
+| tender_full_pdf_approval |  |
+| tender_dms_ref |  |
+| tender_pr_ref |  |
+| tender_publish_approval_pdf |  |
+| tender_technical_approval_pdf |  |
+| tender_commercial_approval_pdf |  |
+| tender_common_approval_pdf |  |
+| tender_bid_type |  |
+| comparitive_path |  |
+| technical_path |  |
+| commerial_path |  |
+| notifier_staff |  |
+| acc_no |  |
+| acc_name |  |
+| bank_name |  |
+| ifsc_code |  |
+| bd_id |  |
+| attachments |  |
+| tender_bank_details_pdf |  |
+| tender_bank_details_pdf_pages |  |
+| tender_application_amount_remarks |  |
+| emd_amount |  |
+| emd_amount_remarks |  |
+| tender_validity_minimum |  |
+| tender_validity_maximum |  |
+| note_ref |  |
+| note_ref_attachments |  |
+| tender_cancel_reason |  |
+| tender_delete_reason |  |
+| tender_publish_type |  |
+| selected_vendors |  |
+| department_name |  |
+| negotiation_deadlinedate |  |
+| negotiation_remarks |  |
+| is_show_negotiate |  |
+| previous_tender_status |  |
+| clarification_attachments |  |
+| payment_terms |  |
+| technical_opener |  |
+| commercial_opener |  |
+| comparitive_opener |  |
+| notes_pdf |  |
+| prs_pdf |  |
+| tender_special_terms |  |
+| tender_special_terms_pdf |  |
+| tender_special_terms_pdf_pages |  |
+| checklist_items |  |
+| technical_eligible_vendor |  |
+| approval_price_type |  |
+| is_warning |  |
+| generate_start_on |  |
+| special_vendor_ids |  |
+| tender_type_name |  |
+| tender_type_code |  |
+| total_queries |  |
+| pr_number |  |
+| unread_queries |  |
+| tender_dates |  |
+| date_name |  |
+| isdefault |  |
+| order_key |  |
+| tender_id |  |
+| created_at |  |
+| date_value |  |
+| is_deleted |  |
+| updated_at |  |
+| cust_emp_id |  |
+| customer_id |  |
+| isapplicable |  |
+| tender_date_id |  |
+| tender_type_id |  |
+| isdefaultapplicable |  |
+| tender_corresponders |  |
+| tender_id |  |
+| created_at |  |
+| is_deleted |  |
+| updated_at |  |
+| cust_emp_id |  |
+| customer_id |  |
+| tender_type_id |  |
+| corresponder_name |  |
+| corresponder_address |  |
+| corresponder_contacts |  |
+| index |  |
+| isEdit |  |
+| contact_name |  |
+| contact_email |  |
+| contact_phone |  |
+| tender_corresponder_id |  |
+| tender_annexure |  |
+| order_key |  |
+| tender_id |  |
+| created_at |  |
+| is_deleted |  |
+| updated_at |  |
+| cust_emp_id |  |
+| customer_id |  |
+| annexure_key |  |
+| annexure_pdf |  |
+| annexure_name |  |
+| annexure_value |  |
+| value |  |
+| id |  |
+| sr_no |  |
+| discount |  |
+| type |  |
+| value |  |
+| insurance |  |
+| type |  |
+| value |  |
+| gst_charge |  |
+| type |  |
+| value |  |
+| unit_price |  |
+| value |  |
+| isNewRecord |  |
+| cess_charges |  |
+| value |  |
+| local_charges |  |
+| type |  |
+| value |  |
+| customer_added |  |
+| isButtonRecord |  |
+| measurement_id |  |
+| value |  |
+| transportation |  |
+| type |  |
+| value |  |
+| item_description |  |
+| value |  |
+| measurement_code |  |
+| value |  |
+| landed_unit_price |  |
+| value |  |
+| loading_unloading |  |
+| type |  |
+| value |  |
+| material_quantity |  |
+| value |  |
+| action_portion_index |  |
+| packaging_forwarding |  |
+| type |  |
+| value |  |
+| comparison_total_price |  |
+| value |  |
+| tender_type_id |  |
+| annexure_pdf_pages |  |
+| tender_annexure_id |  |
+| order_key |  |
+| tender_id |  |
+| created_at |  |
+| is_deleted |  |
+| updated_at |  |
+| cust_emp_id |  |
+| customer_id |  |
+| annexure_key |  |
+| annexure_pdf |  |
+| annexure_name |  |
+| annexure_value |  |
+| value |  |
+| years |  |
+| dates |  |
+| index |  |
+| amount |  |
+| tender_type_id |  |
+| annexure_pdf_pages |  |
+| tender_annexure_id |  |
+| order_key |  |
+| tender_id |  |
+| created_at |  |
+| is_deleted |  |
+| updated_at |  |
+| cust_emp_id |  |
+| customer_id |  |
+| annexure_key |  |
+| annexure_pdf |  |
+| annexure_name |  |
+| annexure_value |  |
+| data |  |
+| id |  |
+| download_note |  |
+| tender_type_id |  |
+| annexure_pdf_pages |  |
+| tender_annexure_id |  |
+| order_key |  |
+| tender_id |  |
+| created_at |  |
+| is_deleted |  |
+| updated_at |  |
+| cust_emp_id |  |
+| customer_id |  |
+| annexure_key |  |
+| annexure_pdf |  |
+| annexure_name |  |
+| annexure_value |  |
+| technical |  |
+| data |  |
+| commercial |  |
+| data |  |
+| tender_type_id |  |
+| annexure_pdf_pages |  |
+| tender_annexure_id |  |
+| order_key |  |
+| tender_id |  |
+| created_at |  |
+| is_deleted |  |
+| updated_at |  |
+| cust_emp_id |  |
+| customer_id |  |
+| annexure_key |  |
+| annexure_pdf |  |
+| annexure_name |  |
+| annexure_value |  |
+| index |  |
+| index |  |
+| title |  |
+| isEdit |  |
+| remarks |  |
+| attachments |  |
+| is_required |  |
+| is_from_customer |  |
+| tender_type_id |  |
+| annexure_pdf_pages |  |
+| tender_annexure_id |  |
+| current_level |  |
+| elected_vendors_details |  |
+| emp_fullname |  |
+| cust_emp_fname |  |
+| cust_emp_lname |  |
+| email |  |
+| role_name |  |
+| technical_emp_fullname |  |
+| technical_emp_prefix |  |
+| technical_cust_emp_fname |  |
+| technical_cust_emp_lname |  |
+| technical_email |  |
+| technical_role_name |  |
+| commercial_emp_fullname |  |
+| commercial_emp_prefix |  |
+| commercial_cust_emp_fname |  |
+| commercial_cust_emp_lname |  |
+| commercial_email |  |
+| commercial_role_name |  |
+| comparitive_emp_fullname |  |
+| comparitive_emp_prefix |  |
+| comparitive_cust_emp_fname |  |
+| comparitive_cust_emp_lname |  |
+| comparitive_email |  |
+| comparitive_role_name |  |
+| vendor_tender |  |
+| vendor_tender_application |  |
+| tender_negotiation_form |  |
+| tender_loi_form |  |
+| tender_notes_form |  |
+| po_attachments |  |
+
+
+---
