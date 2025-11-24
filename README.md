@@ -1,13 +1,14 @@
-# Unused-Parameters-Lists
+# Unused Parameters Lists
 
+# **`1. RFQ`**
 
-## **`1. RFQ (Request for Quotation)`**
+> Unused Parameters
+> 
 
-# Unused Parameters
+> **List of Unused Parameters from this API (Pagination Table API) - `customer/requestQuotation/getRFQlist`**
+> 
 
-> List of Unused Parameters from this API (Pagination Table API) - **`customer/requestQuotation/getRFQlist`**
-
-**Parameters** | **Used/Unused** |
+| **Parameters** | **Used/Unused** |
 | --- | --- |
 | `pr_rfq_id` | `used` |
 | `rfq_number` | `used` |
@@ -189,7 +190,7 @@
 ---
 
 > List of Unused Parameters from this API **- `customer/requestQuotation/getDeleteRequestQuotation`**
-
+> 
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
@@ -200,74 +201,48 @@
 | `category_ids` | `Unused` |
 | `negotiation_deadlinedate` | `Unused` |
 
-### Vendor Portal PDF API’s
+>  **Vendor Portal PDF API’s**
+> 
+    vendor/requestQuotation/listRfq
+    vendor/requestQuotation/listRfqVendorDetails
+    vendor/arcContractOrder/getVendorPurchaseOrderLists
+    vendor/arcQuotation/listRfq
+    vendor/purchaseRequestOrder/getVendorPurchaseOrderLists
+    vendor/invoices/getVendorInvoiceList 
+    vendor/rev-auc/list_auctions
+    vendor/rev-auc/details 
+    vendor/tender/list_tender
 
-`vendor/requestQuotation/listRfq`
+> **Customer Portal PDF API’s**
 
-`vendor/requestQuotation/listRfqVendorDetails`
+    customer/purchaseRequest/getPurchaseRequestLists
+    customer/purchaseRequest/getPurchaseRequestDetails
+    customer/purchaseRequest/getDeletedPurchaseRequestLists
+    customer/requestQuotation/getWorkflowRequestQuotationRecords
+    customer/requestQuotation/getRFQlist
+    customer/purchaseRequestOrder/getWorkflowGRNPORecords
+    customer/purchaseRequestOrder/ComparisionPOApproverHistory
+    customer/arcQuotation/getWorkflowRequestQuotationRecords
+    customer/arcQuotation/getRFQlist
+    customer/arcContractOrder/getWorkflowPORecords
+    customer/arcContractOrder/ComparisionPOApproverHistory
+    customer/tender/tender_approval_records
+    customer/tender/list_tender_flow
+    customer/rev-auc/auction_approval_records
+    customer/dmsdocument/getDocumentWorkflowRelease
+    customer/requests_master/getRequestWorkflowRelease
+    customer/purchaseRequestOrder/getWorkflowPORecords
+    customer/purchaseRequestOrder/ComparisionPOApproverHistory
+    customer/tender/list_tender
+    customer/tender/list_tender_flow
+    customer/tender/tender_details
 
-`vendor/arcContractOrder/getVendorPurchaseOrderLists`
+> 
 
-`vendor/arcQuotation/listRfq`
-
-`vendor/purchaseRequestOrder/getVendorPurchaseOrderLists`
-
-`vendor/invoices/getVendorInvoiceList`
-
-`vendor/rev-auc/list_auctions`
-
-`vendor/rev-auc/details`
-
-`vendor/tender/list_tender`
-
-### Customer Portal PDF API’s
-
-`customer/purchaseRequest/getPurchaseRequestLists`
-
-`customer/purchaseRequest/getPurchaseRequestDetails`
-
-`customer/purchaseRequest/getDeletedPurchaseRequestLists`
-
-`customer/requestQuotation/getWorkflowRequestQuotationRecords`
-
-`customer/requestQuotation/getRFQlist`
-
-`customer/purchaseRequestOrder/getWorkflowGRNPORecords`
-
-`customer/purchaseRequestOrder/ComparisionPOApproverHistory`
-
-`customer/arcQuotation/getWorkflowRequestQuotationRecords`
-
-`customer/arcQuotation/getRFQlist`
-
-`customer/arcContractOrder/getWorkflowPORecords`
-
-`customer/arcContractOrder/ComparisionPOApproverHistory`
-
-`customer/tender/tender_approval_records`
-
-`customer/tender/list_tender_flow`
-
-`customer/rev-auc/auction_approval_records`
-
-`customer/dmsdocument/getDocumentWorkflowRelease`
-
-`customer/dmsdocument/getDocumentWorkflowRelease`
-
-`customer/requests_master/getRequestWorkflowRelease`
-
-`customer/purchaseRequestOrder/getWorkflowPORecords`
-
-`customer/purchaseRequestOrder/ComparisionPOApproverHistory`
-
-customer/tender/list_tender
-
-customer/tender/list_tender_flow
-
-customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API (which is called when opening a specific RFQ List drawer) `customer/requestQuotation/getRFQlist`**
+> 
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
@@ -312,7 +287,167 @@ customer/tender/tender_details
 
 ---
 
+| `pr_rfq_id` | `Used` |
+| --- | --- |
+| `rfq_number` | `used` |
+| `rfq_deadline` | `used` |
+| `rfq_status` |  |
+| `is_deleted` | `used` |
+| `vendors_id` | `used` |
+| `special_vendor_ids` | `used` |
+| `vendor_email_ids` | `used` |
+| `collective_rfq_number` | `used` |
+| `tendor_type` | `used` |
+| `rfq_type` | `used` |
+| `rfq_date` | `used` |
+| `purchase_group_id` | `used` |
+| `created_by` | `used` |
+| `category_ids` | `used` |
+| `rfq_oc` |  |
+| `rfq_extend_status` |  |
+| `negotiation_deadlinedate` |  |
+| `is_show_negotiate` |  |
+| `currency_detail` |  |
+|  |  |
+| `technical_emp_id` | `used` |
+| `mail_text` | `used` |
+| `technical_emp_detail` | `used` |
+| `cust_emp_email` |  |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `cust_emp_phone` |  |
+| `cust_emp_dial_code` |  |
+| `extend_count` |  |
+| `rfq_title` | `used` |
+| `pr_number` | `used` |
+| `requisitioner_names` |  |
+| `total_queries` |  |
+| `unread_queries` |  |
+| `quotationlists` | `used` |
+| `pro_id` |  |
+| `f_and_o` |  |
+| `pr_rfq_id` | `used` |
+| `vendor_id` | `used` |
+| `created_at` |  |
+| `is_deleted` | `used` |
+| `rfq_number` |  |
+| `rfq_status` |  |
+| `updated_at` |  |
+| `cust_emp_id` | `used` |
+| `customer_id` | `used` |
+| `f_and_o_dec` |  |
+| `vendor_code` |  |
+| `vendor_name` |  |
+| `total_amount` |  |
+| `vendor_email` |  |
+| `vendor_phone` |  |
+| `payment_terms` |  |
+| `total_queries` |  |
+| `delivery_terms` |  |
+| `quantity_terms` |  |
+| `regret_remarks` |  |
+| `unread_queries` |  |
+| `vendor_remarks` |  |
+| `reference_number` |  |
+| `supplier_remarks` |  |
+| `vendor_po_status` |  |
+| `payment_terms_dec` |  |
+| `delivery_terms_dec` |  |
+| `contact_person_name` |  |
+| `vendor_rfq_document` |  |
+| `contact_person_email` |  |
+| `rfq_vendor_master_id` |  |
+| `contact_person_number` |  |
+| `vendor_rfq_quotation_history` |  |
+| `vendor_rfq_quotation_document` | `used` |
+| `vendoremaillists` | `used` |
+| `comparitive_reports` | `used` |
+| `updated_comparision_report` |  |
+| `po_attachments` |  |
+| `materiallists` | `used` |
+| `purchase_request_material_id` | `used` |
+| `pr_id` | `used` |
+| `material_id` | `used` |
+| `material_code` | `used` |
+| `material_group_id` | `used` |
+| `material_group_code` | `used` |
+| `acc_assets_category_id` | `used` |
+| `category` | `used` |
+| `item_category_id` | `used` |
+| `item` | `used` |
+| `quantity` | `used` |
+| `unit_id` | `used` |
+| `unit` | `used` |
+| `total_price` | `used` |
+| `plant_id` | `used` |
+| `plant_code` | `used` |
+| `purchase_organization` | `used` |
+| `purchase_group_id` | `used` |
+| `purchase_group_code` | `used` |
+| `tracking_number` | `used` |
+| `material_revision` | `used` |
+| `quantity_ordered` |  |
+| `quantity_open` |  |
+| `request_date` |  |
+| `release_date` |  |
+| `pl_delivery_time` |  |
+| `gr_proc_time` |  |
+| `delivery_text` | `used` |
+| `material_po_text` | `used` |
+| `process_status` | `used` |
+| `purchase_requisition_status` | `used` |
+| `order_qty` | `used` |
+| `uploading_point` | `used` |
+| `recipient` | `used` |
+| `g_l_account` | `used` |
+| `assets` | `used` |
+| `co_area` | `used` |
+| `assignment_order` | `used` |
+| `wbs_element` | `used` |
+| `funds_center` | `used` |
+| `is_deleted` | `used` |
+| `created_at` |  |
+| `updated_at` |  |
+| `requisitioner` | `used` |
+| `requisitioner_name` | `used` |
+| `pr_rfq_id` | `used` |
+| `vendor_id` | `used` |
+| `vendor_detail` | `used` |
+|  |  |
+| `goods_receipt` |  |
+| `invoice_receipt` |  |
+| `item_text` | `used` |
+| `item_note` | `used` |
+| `delivery_date` | `used` |
+| `initial_price` |  |
+| `rfq_delivery_date` | `used` |
+| `distribution` |  |
+| `material_specification` | `used` |
+| `service_detail` | `used` |
+| `pro_id` |  |
+| `ra_id` |  |
+| `maximum_price` |  |
+| `po_order_quantity` |  |
+| `is_materil_po_created` |  |
+| `sap_item` | `used` |
+| `arc_contract_id` |  |
+| `prm_publish_type` |  |
+| `prm_selected_vendors` |  |
+| `asking_price` |  |
+| `asking_quantity` |  |
+| `pending_quantity` |  |
+| `prm_end_date` |  |
+| `prm_ra_extenstion_counter` |  |
+| `fixed_qty` |  |
+| `material_name` |  |
+| `material_short_description` | `used` |
+| `vendorqueries` | `used` |
+| `attachments` | `used` |
+
+---
+
 > **List of unused parameters in the API `customer/requestQuotation/listVendorQuotation`**
+> 
 
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
@@ -459,8 +594,6 @@ customer/tender/tender_details
 | `141` | `material_name` | `✅ Used` |
 | `142` | `material_short_description` | `✅ Used` |
 
----
-
 **All used Parameters:**
 
 **`vendor_rfq_quotation_history`**
@@ -491,6 +624,8 @@ customer/tender/tender_details
 
 > **List of unused parameters in the API `customer/requestQuotation/getRequestQuotationRFQDetails`**
 > 
+
+**Date: 14/10/25**
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
@@ -558,10 +693,10 @@ customer/tender/tender_details
 | `last_name` |  |
 | `verified` |  |
 
----
-
 > **List of unused parameters in the API (which is called when opening a specific RFQ Detail drawer) `customer/requestQuotation/get_rfq_details`**
+> 
 
+**Date: 14/10/25**
 
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
@@ -721,7 +856,9 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API -  `customer/requestQuotation/comparisionRFQApproverHistory`**
+> 
 
+**Date: 14/10/25**
 
 | **#** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
@@ -757,7 +894,7 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API - (called when take reference from PR) -  `customer/purchaseRequest/getPurchaseRequestRFQData`**
-
+> 
 
 **Date: 14/10/25**
 
@@ -833,88 +970,92 @@ customer/tender/tender_details
 ---
 
 > **List of unused parameters in the API - (called during componentDidMount) -**  `customer/vendor/listPagination`
+> 
 
+**Date: 15/10/25**
 
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
-| 1 | vendor_id | used |
-| 2 | vendor_phone | used |
-| 3 | vendor_images |  |
-| 4 | vendor_thumbs |  |
-| 5 | vendor_cumtomer_ids |  |
-| 6 | vendor_emp_ids |  |
-| 7 | vendor_active | used |
-| 8 | vendor_deleted |  |
-| 9 | created_at | used |
-| 10 | updated_at |  |
-| 11 | vendor_unique_id |  |
-| 12 | vendor_street |  |
-| 13 | vendor_zipcode |  |
-| 14 | vendor_main_employee |  |
-| 15 | vendor_contract |  |
-| 16 | vendor_email | used |
-| 17 | vendor_name | used |
-| 18 | vendor_country | used |
-| 19 | vendor_country_code |  |
-| 20 | vendor_state | used |
-| 21 | vendor_city |  |
-| 22 | vendor_nickname | used |
-| 23 | vendor_status |  |
-| 24 | vendor_emp_count |  |
-| 25 | vendor_prefix |  |
-| 26 | vendor_currency_symbol |  |
-| 27 | prefix_change |  |
-| 28 | checklist_pref |  |
-| 29 | is_pending_comp_service |  |
-| 30 | pending_comp_cron_time |  |
-| 31 | is_pending_comp_cron |  |
-| 32 | deactivated_customers |  |
-| 33 | vendor_tz |  |
-| 34 | user_profile_show_verndor |  |
-| 35 | service_provider_id |  |
-| 36 | vendor_category_id |  |
-| 37 | vendor_office_tel |  |
-| 38 | vendor_field_area |  |
-| 39 | vendor_attachement |  |
-| 40 | vendor_attachement_thumb |  |
-| 41 | vendor_gst |  |
-| 42 | vendor_gst_thumb |  |
-| 43 | vendor_pan |  |
-| 44 | vendor_pan_thumb |  |
-| 45 | vendor_cheque |  |
-| 46 | vendor_cheque_thumb |  |
-| 47 | vandor_bank_acc_no |  |
-| 48 | vendor_bank_name |  |
-| 49 | vendor_bank_address |  |
-| 50 | vendor_bank_city |  |
-| 51 | vendor_bank_branch |  |
-| 52 | vendor_bank_ifsc |  |
-| 53 | vendor_bank_branch_code |  |
-| 54 | vendor_code | used |
-| 55 | vendor_district |  |
-| 56 | vendor_fax |  |
-| 57 | vendor_gst_no |  |
-| 58 | vendor_pan_no |  |
-| 59 | vendor_contact_person |  |
-| 60 | utr_ref |  |
-| 61 | utr_date |  |
-| 62 | utr_amount |  |
-| 63 | utr_bank |  |
-| 64 | utr_attachments |  |
-| 65 | deleted_customers |  |
-| 66 | beneficiary_name |  |
-| 67 | vendor_product |  |
-| 68 | vendor_emp_id |  |
-| 69 | first_name | used |
-| 70 | last_name | used |
-| 71 | verified |  |
-| 72 | validity_documents |  |
-| 73 | is_vendor_active_for_customer |  |
+| `1` | `vendor_id` | `used` |
+| `2` | `vendor_phone` | `used` |
+| `3` | `vendor_images` |  |
+| `4` | `vendor_thumbs` |  |
+| `5` | `vendor_cumtomer_ids` |  |
+| `6` | `vendor_emp_ids` |  |
+| `7` | `vendor_active` | `used` |
+| `8` | `vendor_deleted` |  |
+| `9` | `created_at` | `used` |
+| `10` | `updated_at` |  |
+| `11` | `vendor_unique_id` |  |
+| `12` | `vendor_street` |  |
+| `13` | `vendor_zipcode` |  |
+| `14` | `vendor_main_employee` |  |
+| `15` | `vendor_contract` |  |
+| `16` | `vendor_email` | `used` |
+| `17` | `vendor_name` | `used` |
+| `18` | `vendor_country` | `used` |
+| `19` | `vendor_country_code` |  |
+| `20` | `vendor_state` | `used` |
+| `21` | `vendor_city` |  |
+| `22` | `vendor_nickname` | `used` |
+| `23` | `vendor_status` |  |
+| `24` | `vendor_emp_count` |  |
+| `25` | `vendor_prefix` |  |
+| `26` | `vendor_currency_symbol` |  |
+| `27` | `prefix_change` |  |
+| `28` | `checklist_pref` |  |
+| `29` | `is_pending_comp_service` |  |
+| `30` | `pending_comp_cron_time` |  |
+| `31` | `is_pending_comp_cron` |  |
+| `32` | `deactivated_customers` |  |
+| `33` | `vendor_tz` |  |
+| `34` | `user_profile_show_verndor` |  |
+| `35` | `service_provider_id` |  |
+| `36` | `vendor_category_id` |  |
+| `37` | `vendor_office_tel` |  |
+| `38` | `vendor_field_area` |  |
+| `39` | `vendor_attachement` |  |
+| `40` | `vendor_attachement_thumb` |  |
+| `41` | `vendor_gst` |  |
+| `42` | `vendor_gst_thumb` |  |
+| `43` | `vendor_pan` |  |
+| `44` | `vendor_pan_thumb` |  |
+| `45` | `vendor_cheque` |  |
+| `46` | `vendor_cheque_thumb` |  |
+| `47` | `vandor_bank_acc_no` |  |
+| `48` | `vendor_bank_name` |  |
+| `49` | `vendor_bank_address` |  |
+| `50` | `vendor_bank_city` |  |
+| `51` | `vendor_bank_branch` |  |
+| `52` | `vendor_bank_ifsc` |  |
+| `53` | `vendor_bank_branch_code` |  |
+| `54` | `vendor_code` | `used` |
+| `55` | `vendor_district` |  |
+| `56` | `vendor_fax` |  |
+| `57` | `vendor_gst_no` |  |
+| `58` | `vendor_pan_no` |  |
+| `59` | `vendor_contact_person` |  |
+| `60` | `utr_ref` |  |
+| `61` | `utr_date` |  |
+| `62` | `utr_amount` |  |
+| `63` | `utr_bank` |  |
+| `64` | `utr_attachments` |  |
+| `65` | `deleted_customers` |  |
+| `66` | `beneficiary_name` |  |
+| `67` | `vendor_product` |  |
+| `68` | `vendor_emp_id` |  |
+| `69` | `first_name` | `used` |
+| `70` | `last_name` | `used` |
+| `71` | `verified` |  |
+| `72` | `validity_documents` |  |
+| `73` | `is_vendor_active_for_customer` |  |
 
 ---
 
 > **List of unused parameters in the API - (called during componentDidMount) -**  `customer/material/getMaterialRecords`
+> 
 
+**Date: 15/10/25**
 
 | **No.** | **Parameter** | **Used / Unused** |
 | --- | --- | --- |
@@ -946,329 +1087,332 @@ customer/tender/tender_details
 | `26` | `material_group_name` | `used` |
 | `27` | `material_group_code` | `used` |
 
--------------------------
+---
 
-## **`2. Purchase Request`**
-
+# **`2. Purchase Request`**
 
 > **List of unused parameters in the API - (called during componentDidMount / Pagination ) -  `customer/purchaseRequest/getPurchaseRequestLists`**
+> 
 
-
-| **#** | **Parameter** | **Used/Unused** |
-| --- | --- | --- |
-| 1 | pr_id |  |
-| 2 | cust_emp_id |  |
-| 3 | pr_number | used |
-| 4 | requisitioner_name | used |
-| 5 | created_at | used |
-| 6 | pr_deadline | used |
-| 7 | pr_status | used |
-| 8 | is_deleted | used |
-| 9 | pr_document | used |
-| 10 | department_name |  |
-| 11 | department_id |  |
-| 12 | assets_number |  |
-| 13 | purchase_type_id |  |
-| 14 | sap_login_id | used |
-| 15 | cust_emp_fname |  |
-| 16 | pr_delete_remarks |  |
-| 17 | release_remarks | used |
-| 18 | cust_emp_lname |  |
-| 19 | purchase_type_code |  |
-| 20 | purchase_type_name |  |
-| 21 | tracking_number | used |
-| 22 | rfq_details | used |
-| 23 | pr_rfq_id |  |
-| 24 | rfq_status |  |
-| 25 | collective_rfq_number | used |
-| 26 | tenders | used |
-| 27 | tender_id |  |
-| 28 | tender_status |  |
-| 29 | tender_type_id |  |
-| 30 | tender_bid_type |  |
-| 31 | tender_ref_name |  |
-| 32 | tender_type_code |  |
-| 33 | tender_type_name |  |
-| 34 | collective_tender_no |  |
-
----
-
-> **List of unused parameters in the API - (called during componentDidMount / Pagination ) -** `customer/purchaseRequest/getRFQPurchaseRequestLists`
-
-
-| # | Parameter | Used/Unused |
-| --- | --- | --- |
-| 1 | pr_id |  |
-| 2 | cust_emp_id |  |
-| 3 | pr_number | used |
-| 4 | requisitioner_name | used |
-| 5 | created_at | used |
-| 6 | pr_deadline | used |
-| 7 | pr_status | used |
-| 8 | is_deleted | used |
-| 9 | pr_document | used |
-| 10 | department_name |  |
-| 11 | department_id |  |
-| 12 | assets_number |  |
-| 13 | purchase_type_id |  |
-| 14 | sap_login_id | used |
-| 15 | pr_delete_remarks |  |
-| 16 | release_remarks | used |
-| 17 | cust_emp_fname |  |
-| 18 | cust_emp_lname |  |
-| 19 | purchase_type_code |  |
-| 20 | purchase_type_name |  |
-| 21 | tracking_number | used |
-| 22 | materiallists |  |
-| 23 | item |  |
-| 24 | unit |  |
-| 25 | pr_id |  |
-| 26 | ra_id |  |
-| 27 | assets |  |
-| 28 | pro_id |  |
-| 29 | co_area |  |
-| 30 | unit_id |  |
-| 31 | category |  |
-| 32 | plant_id |  |
-| 33 | quantity |  |
-| 34 | sap_item |  |
-| 35 | fixed_qty |  |
-| 36 | item_note |  |
-| 37 | item_text |  |
-| 38 | order_qty |  |
-| 39 | pr_rfq_id |  |
-| 40 | recipient |  |
-| 41 | vendor_id |  |
-| 42 | created_at | used |
-| 43 | is_deleted | used |
-| 44 | plant_code |  |
-| 45 | unit_price |  |
-| 46 | updated_at |  |
-| 47 | attachments |  |
-| 48 | g_l_account |  |
-| 49 | material_id |  |
-| 50 | total_price |  |
-| 51 | wbs_element |  |
-| 52 | asking_price |  |
-| 53 | distribution |  |
-| 54 | funds_center |  |
-| 55 | gr_proc_time |  |
-| 56 | prm_end_date |  |
-| 57 | release_date |  |
-| 58 | request_date |  |
-| 59 | delivery_date |  |
-| 60 | delivery_text |  |
-| 61 | goods_receipt |  |
-| 62 | initial_price |  |
-| 63 | material_code |  |
-| 64 | material_name |  |
-| 65 | maximum_price |  |
-| 66 | quantity_open |  |
-| 67 | requisitioner |  |
-| 68 | vendor_detail |  |
-| 69 | process_status |  |
-| 70 | service_detail |  |
-| 71 | arc_contract_id |  |
-| 72 | asking_quantity |  |
-| 73 | invoice_receipt |  |
-| 74 | tracking_number | used |
-| 75 | uploading_point |  |
-| 76 | assignment_order |  |
-| 77 | item_category_id |  |
-| 78 | material_po_text |  |
-| 79 | pending_quantity |  |
-| 80 | pl_delivery_time |  |
-| 81 | prm_publish_type |  |
-| 82 | quantity_ordered |  |
-| 83 | material_group_id |  |
-| 84 | material_revision |  |
-| 85 | po_order_quantity |  |
-| 86 | purchase_group_id |  |
-| 87 | rfq_delivery_date |  |
-| 88 | requisitioner_name | used |
-| 89 | material_group_code |  |
-| 90 | purchase_group_code |  |
-| 91 | prm_selected_vendors |  |
-| 92 | is_materil_po_created |  |
-| 93 | purchase_organization |  |
-| 94 | acc_assets_category_id |  |
-| 95 | material_specification |  |
-| 96 | prm_ra_extenstion_counter |  |
-| 97 | material_short_description |  |
-| 98 | purchase_requisition_status |  |
-| 99 | purchase_request_material_id |  |
-| 100 | release_records |  |
-| 101 | rfq_details | used |
-| 102 | pr_rfq_id |  |
-| 103 | rfq_status |  |
-| 104 | collective_rfq_number | used |
-| 105 | tenders | used |
-
----
-
-> **List of unused parameters in the API - (called during componentDidMount / Pagination ) - `customer/purchaseRequest/getDeletedPurchaseRequestLists`**
-
-
-| **#** | **Parameter** | **Used/Unused** |
-| --- | --- | --- |
-| 1 | pr_id |  |
-| 2 | pr_number | used |
-| 3 | requisitioner_name | used |
-| 4 | created_at | used |
-| 5 | pr_deadline | used |
-| 6 | pr_status | used |
-| 7 | is_deleted | used |
-| 8 | pr_document |  |
-| 9 | department_name |  |
-| 10 | department_id |  |
-| 11 | assets_number |  |
-| 12 | purchase_type_id |  |
-| 13 | sap_login_id | used |
-| 14 | pr_delete_remarks | used |
-| 15 | release_remarks |  |
-| 16 | cust_emp_fname |  |
-| 17 | cust_emp_lname |  |
-| 18 | purchase_type_code |  |
-| 19 | purchase_type_name |  |
-| 20 | tracking_number | used |
-| 21 | rfq_details | used |
-| 22 | tenders | used |
-| 23 | tender_id |  |
-| 24 | tender_status |  |
-| 25 | tender_type_id | used |
-| 26 | tender_bid_type | used |
-| 27 | tender_ref_name | used |
-| 28 | tender_type_code | used |
-| 29 | tender_type_name |  |
-| 30 | collective_tender_no | used |
-
----
-
-> **List of unused parameters in the API - (called during open specific PR Details ) -** `customer/purchaseRequest/getPurchaseRequestDetails`
-
+**Date: 15/10/25**
 
 | **No** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
-| 1 | pr_id | used |
-| 2 | cust_emp_id | used |
-| 3 | pr_number | used |
-| 4 | requisitioner_name | used |
-| 5 | created_at | used |
-| 6 | pr_deadline |  |
-| 7 | pr_status |  |
-| 8 | is_deleted | used |
-| 9 | pr_document |  |
-| 10 | department_name | used |
-| 11 | department_id | used |
-| 12 | assets_number | used |
-| 13 | purchase_type_id | used |
-| 14 | sap_login_id |  |
-| 15 | cust_emp_fname |  |
-| 16 | pr_delete_remarks |  |
-| 17 | release_remarks |  |
-| 18 | cust_emp_lname |  |
-| 19 | purchase_type_code | used |
-| 20 | purchase_type_name | used |
-| 21 | tracking_number | used |
-| 22 | materiallists | used |
-| 23 | item | used |
-| 24 | unit | used |
-| 25 | pr_id | used |
-| 26 | ra_id |  |
-| 27 | assets | used |
-| 28 | pro_id |  |
-| 29 | co_area | used |
-| 30 | unit_id | used |
-| 31 | category | used |
-| 32 | plant_id | used |
-| 33 | quantity | used |
-| 34 | sap_item | used |
-| 35 | fixed_qty |  |
-| 36 | item_note | used |
-| 37 | item_text | used |
-| 38 | order_qty | used |
-| 39 | pr_rfq_id | used |
-| 40 | recipient | used |
-| 41 | vendor_id | used |
-| 42 | created_at | used |
-| 43 | is_deleted | used |
-| 44 | plant_code | used |
-| 45 | updated_at |  |
-| 46 | attachments | used |
-| 47 | pr_id | used |
-| 48 | pro_id |  |
-| 49 | image_id | used |
-| 50 | file_name |  |
-| 51 | file_type |  |
-| 52 | image_url |  |
-| 53 | pr_rfq_id | used |
-| 54 | thumb_url |  |
-| 55 | created_at | used |
-| 56 | updated_at |  |
-| 57 | purchase_request_material_id | used |
-| 58 | g_l_account | used |
-| 59 | material_id | used |
-| 60 | total_price | used |
-| 61 | wbs_element | used |
-| 62 | asking_price |  |
-| 63 | distribution | used |
-| 64 | funds_center | used |
-| 65 | gr_proc_time |  |
-| 66 | prm_end_date |  |
-| 67 | release_date |  |
-| 68 | request_date |  |
-| 69 | delivery_date | used |
-| 70 | delivery_text | used |
-| 71 | goods_receipt |  |
-| 72 | initial_price |  |
-| 73 | material_code | used |
-| 74 | material_name |  |
-| 75 | maximum_price |  |
-| 76 | quantity_open |  |
-| 77 | requisitioner | used |
-| 78 | vendor_detail | used |
-| 79 | process_status | used |
-| 80 | service_detail | used |
-| 81 | arc_contract_id | used |
-| 82 | asking_quantity |  |
-| 83 | invoice_receipt |  |
-| 84 | tracking_number | used |
-| 85 | uploading_point | used |
-| 86 | assignment_order | used |
-| 87 | item_category_id | used |
-| 88 | material_po_text | used |
-| 89 | pending_quantity |  |
-| 90 | pl_delivery_time |  |
-| 91 | prm_publish_type |  |
-| 92 | quantity_ordered |  |
-| 93 | material_group_id | used |
-| 94 | material_revision | used |
-| 95 | po_order_quantity |  |
-| 96 | purchase_group_id | used |
-| 97 | rfq_delivery_date |  |
-| 98 | requisitioner_name | used |
-| 99 | material_group_code | used |
-| 100 | purchase_group_code | used |
-| 101 | prm_selected_vendors |  |
-| 102 | arc_agreement_details | used |
-| 103 | is_materil_po_created |  |
-| 104 | purchase_organization | used |
-| 105 | acc_assets_category_id | used |
-| 106 | material_specification | used |
-| 107 | prm_ra_extenstion_counter |  |
-| 108 | material_short_description | used |
-| 109 | purchase_requisition_status | used |
-| 110 | purchase_request_material_id | used |
-| 111 | release_records | used |
-| 112 | rfq_details |  |
-| 113 | pr_rfq_id | used |
-| 114 | rfq_status |  |
-| 115 | collective_rfq_number |  |
+| `1` | `pr_id` |  |
+| `2` | `cust_emp_id` |  |
+| `3` | `pr_number` | `used` |
+| `4` | `requisitioner_name` | `used` |
+| `5` | `created_at` | `used` |
+| `6` | `pr_deadline` | `used` |
+| `7` | `pr_status` | `used` |
+| `8` | `is_deleted` | `used` |
+| `9` | `pr_document` | `used` |
+| `10` | `department_name` |  |
+| `11` | `department_id` |  |
+| `12` | `assets_number` |  |
+| `13` | `purchase_type_id` |  |
+| `14` | `sap_login_id` | `used` |
+| `15` | `cust_emp_fname` |  |
+| `16` | `pr_delete_remarks` |  |
+| `17` | `release_remarks` | `used` |
+| `18` | `cust_emp_lname` |  |
+| `19` | `purchase_type_code` |  |
+| `20` | `purchase_type_name` |  |
+| `21` | `tracking_number` | `used` |
+| `22` | `rfq_details` | `used` |
+| `23` | `pr_rfq_id` |  |
+| `24` | `rfq_status` |  |
+| `25` | `collective_rfq_number` | `used` |
+| `26` | `tenders` | `used` |
+| `27` | `tender_id` |  |
+| `28` | `tender_status` |  |
+| `29` | `tender_type_id` |  |
+| `30` | `tender_bid_type` |  |
+| `31` | `tender_ref_name` |  |
+| `32` | `tender_type_code` |  |
+| `33` | `tender_type_name` |  |
+| `34` | `collective_tender_no` |  |
+
+> **List of unused parameters in the API - (called during componentDidMount / Pagination ) -** `customer/purchaseRequest/getRFQPurchaseRequestLists`
+> 
+
+**Date: 15/10/25**
+
+| **No** | Parameter | Used/Unused |
+| --- | --- | --- |
+| `1` | `pr_id` |  |
+| `2` | `cust_emp_id` |  |
+| `3` | `pr_number` | `used` |
+| `4` | `requisitioner_name` | `used` |
+| `5` | `created_at` | `used` |
+| `6` | `pr_deadline` | `used` |
+| `7` | `pr_status` | `used` |
+| `8` | `is_deleted` | `used` |
+| `9` | `pr_document` | `used` |
+| `10` | `department_name` |  |
+| `11` | `department_id` |  |
+| `12` | `assets_number` |  |
+| `13` | `purchase_type_id` |  |
+| `14` | `sap_login_id` | `used` |
+| `15` | `pr_delete_remarks` |  |
+| `16` | `release_remarks` | `used` |
+| `17` | `cust_emp_fname` |  |
+| `18` | `cust_emp_lname` |  |
+| `19` | `purchase_type_code` |  |
+| `20` | `purchase_type_name` |  |
+| `21` | `tracking_number` | `used` |
+| `22` | `materiallists` |  |
+| `23` | `item` |  |
+| `24` | `unit` |  |
+| `25` | `pr_id` |  |
+| `26` | `ra_id` |  |
+| `27` | `assets` |  |
+| `28` | `pro_id` |  |
+| `29` | `co_area` |  |
+| `30` | `unit_id` |  |
+| `31` | `category` |  |
+| `32` | `plant_id` |  |
+| `33` | `quantity` |  |
+| `34` | `sap_item` |  |
+| `35` | `fixed_qty` |  |
+| `36` | `item_note` |  |
+| `37` | `item_text` |  |
+| `38` | `order_qty` |  |
+| `39` | `pr_rfq_id` |  |
+| `40` | `recipient` |  |
+| `41` | `vendor_id` |  |
+| `42` | `created_at` | `used` |
+| `43` | `is_deleted` | `used` |
+| `44` | `plant_code` |  |
+| `45` | `unit_price` |  |
+| `46` | `updated_at` |  |
+| `47` | `attachments` |  |
+| `48` | `g_l_account` |  |
+| `49` | `material_id` |  |
+| `50` | `total_price` |  |
+| `51` | `wbs_element` |  |
+| `52` | `asking_price` |  |
+| `53` | `distribution` |  |
+| `54` | `funds_center` |  |
+| `55` | `gr_proc_time` |  |
+| `56` | `prm_end_date` |  |
+| `57` | `release_date` |  |
+| `58` | `request_date` |  |
+| `59` | `delivery_date` |  |
+| `60` | `delivery_text` |  |
+| `61` | `goods_receipt` |  |
+| `62` | `initial_price` |  |
+| `63` | `material_code` |  |
+| `64` | `material_name` |  |
+| `65` | `maximum_price` |  |
+| `66` | `quantity_open` |  |
+| `67` | `requisitioner` |  |
+| `68` | `vendor_detail` |  |
+| `69` | `process_status` |  |
+| `70` | `service_detail` |  |
+| `71` | `arc_contract_id` |  |
+| `72` | `asking_quantity` |  |
+| `73` | `invoice_receipt` |  |
+| `74` | `tracking_number` | `used` |
+| `75` | `uploading_point` |  |
+| `76` | `assignment_order` |  |
+| `77` | `item_category_id` |  |
+| `78` | `material_po_text` |  |
+| `79` | `pending_quantity` |  |
+| `80` | `pl_delivery_time` |  |
+| `81` | `prm_publish_type` |  |
+| `82` | `quantity_ordered` |  |
+| `83` | `material_group_id` |  |
+| `84` | `material_revision` |  |
+| `85` | `po_order_quantity` |  |
+| `86` | `purchase_group_id` |  |
+| `87` | `rfq_delivery_date` |  |
+| `88` | `requisitioner_name` | `used` |
+| `89` | `material_group_code` |  |
+| `90` | `purchase_group_code` |  |
+| `91` | `prm_selected_vendors` |  |
+| `92` | `is_materil_po_created` |  |
+| `93` | `purchase_organization` |  |
+| `94` | `acc_assets_category_id` |  |
+| `95` | `material_specification` |  |
+| `96` | `prm_ra_extenstion_counter` |  |
+| `97` | `material_short_description` |  |
+| `98` | `purchase_requisition_status` |  |
+| `99` | `purchase_request_material_id` |  |
+| `100` | `release_records` |  |
+| `101` | `rfq_details` | `used` |
+| `102` | `pr_rfq_id` |  |
+| `103` | `rfq_status` |  |
+| `104` | `collective_rfq_number` | `used` |
+| `105` | `tenders` | `used` |
+
+> **List of unused parameters in the API - (called during componentDidMount / Pagination ) - `customer/purchaseRequest/getDeletedPurchaseRequestLists`**
+> 
+
+**Date: 15/10/25**
+
+| **No** | **Parameter** | **Used/Unused** |
+| --- | --- | --- |
+| `1` | `pr_id` |  |
+| `2` | `pr_number` | `used` |
+| `3` | `requisitioner_name` | `used` |
+| `4` | `created_at` | `used` |
+| `5` | `pr_deadline` | `used` |
+| `6` | `pr_status` | `used` |
+| `7` | `is_deleted` | `used` |
+| `8` | `pr_document` |  |
+| `9` | `department_name` |  |
+| `10` | `department_id` |  |
+| `11` | `assets_number` |  |
+| `12` | `purchase_type_id` |  |
+| `13` | `sap_login_id` | `used` |
+| `14` | `pr_delete_remarks` | `used` |
+| `15` | `release_remarks` |  |
+| `16` | `cust_emp_fname` |  |
+| `17` | `cust_emp_lname` |  |
+| `18` | `purchase_type_code` |  |
+| `19` | `purchase_type_name` |  |
+| `20` | `tracking_number` | `used` |
+| `21` | `rfq_details` | `used` |
+| `22` | `tenders` | `used` |
+| `23` | `tender_id` |  |
+| `24` | `tender_status` |  |
+| `25` | `tender_type_id` | `used` |
+| `26` | `tender_bid_type` | `used` |
+| `27` | `tender_ref_name` | `used` |
+| `28` | `tender_type_code` | `used` |
+| `29` | `tender_type_name` |  |
+| `30` | `collective_tender_no` | `used` |
+
+> **List of unused parameters in the API - (called during open specific PR Details ) -** `customer/purchaseRequest/getPurchaseRequestDetails`
+> 
+
+**Date: 15/10/25**
+
+| **No** | **Parameter** | **Used/Unused** |
+| --- | --- | --- |
+| `1` | `pr_id` | `used` |
+| `2` | `cust_emp_id` | `used` |
+| `3` | `pr_number` | `used` |
+| `4` | `requisitioner_name` | `used` |
+| `5` | `created_at` | `used` |
+| `6` | `pr_deadline` |  |
+| `7` | `pr_status` |  |
+| `8` | `is_deleted` | `used` |
+| `9` | `pr_document` |  |
+| `10` | `department_name` | `used` |
+| `11` | `department_id` | `used` |
+| `12` | `assets_number` | `used` |
+| `13` | `purchase_type_id` | `used` |
+| `14` | `sap_login_id` |  |
+| `15` | `cust_emp_fname` |  |
+| `16` | `pr_delete_remarks` |  |
+| `17` | `release_remarks` |  |
+| `18` | `cust_emp_lname` |  |
+| `19` | `purchase_type_code` | `used` |
+| `20` | `purchase_type_name` | `used` |
+| `21` | `tracking_number` | `used` |
+| `22` | `materiallists` | `used` |
+| `23` | `item` | `used` |
+| `24` | `unit` | `used` |
+| `25` | `pr_id` | `used` |
+| `26` | `ra_id` |  |
+| `27` | `assets` | `used` |
+| `28` | `pro_id` |  |
+| `29` | `co_area` | `used` |
+| `30` | `unit_id` | `used` |
+| `31` | `category` | `used` |
+| `32` | `plant_id` | `used` |
+| `33` | `quantity` | `used` |
+| `34` | `sap_item` | `used` |
+| `35` | `fixed_qty` |  |
+| `36` | `item_note` | `used` |
+| `37` | `item_text` | `used` |
+| `38` | `order_qty` | `used` |
+| `39` | `pr_rfq_id` | `used` |
+| `40` | `recipient` | `used` |
+| `41` | `vendor_id` | `used` |
+| `42` | `created_at` | `used` |
+| `43` | `is_deleted` | `used` |
+| `44` | `plant_code` | `used` |
+| `45` | `updated_at` |  |
+| `46` | `attachments` | `used` |
+| `47` | `pr_id` | `used` |
+| `48` | `pro_id` |  |
+| `49` | `image_id` | `used` |
+| `50` | `file_name` |  |
+| `51` | `file_type` |  |
+| `52` | `image_url` |  |
+| `53` | `pr_rfq_id` | `used` |
+| `54` | `thumb_url` |  |
+| `55` | `created_at` | `used` |
+| `56` | `updated_at` |  |
+| `57` | `purchase_request_material_id` | `used` |
+| `58` | `g_l_account` | `used` |
+| `59` | `material_id` | `used` |
+| `60` | `total_price` | `used` |
+| `61` | `wbs_element` | `used` |
+| `62` | `asking_price` |  |
+| `63` | `distribution` | `used` |
+| `64` | `funds_center` | `used` |
+| `65` | `gr_proc_time` |  |
+| `66` | `prm_end_date` |  |
+| `67` | `release_date` |  |
+| `68` | `request_date` |  |
+| `69` | `delivery_date` | `used` |
+| `70` | `delivery_text` | `used` |
+| `71` | `goods_receipt` |  |
+| `72` | `initial_price` |  |
+| `73` | `material_code` | `used` |
+| `74` | `material_name` |  |
+| `75` | `maximum_price` |  |
+| `76` | `quantity_open` |  |
+| `77` | `requisitioner` | `used` |
+| `78` | `vendor_detail` | `used` |
+| `79` | `process_status` | `used` |
+| `80` | `service_detail` | `used` |
+| `81` | `arc_contract_id` | `used` |
+| `82` | `asking_quantity` |  |
+| `83` | `invoice_receipt` |  |
+| `84` | `tracking_number` | `used` |
+| `85` | `uploading_point` | `used` |
+| `86` | `assignment_order` | `used` |
+| `87` | `item_category_id` | `used` |
+| `88` | `material_po_text` | `used` |
+| `89` | `pending_quantity` |  |
+| `90` | `pl_delivery_time` |  |
+| `91` | `prm_publish_type` |  |
+| `92` | `quantity_ordered` |  |
+| `93` | `material_group_id` | `used` |
+| `94` | `material_revision` | `used` |
+| `95` | `po_order_quantity` |  |
+| `96` | `purchase_group_id` | `used` |
+| `97` | `rfq_delivery_date` |  |
+| `98` | `requisitioner_name` | `used` |
+| `99` | `material_group_code` | `used` |
+| `100` | `purchase_group_code` | `used` |
+| `101` | `prm_selected_vendors` |  |
+| `102` | `arc_agreement_details` | `used` |
+| `103` | `is_materil_po_created` |  |
+| `104` | `purchase_organization` | `used` |
+| `105` | `acc_assets_category_id` | `used` |
+| `106` | `material_specification` | `used` |
+| `107` | `prm_ra_extenstion_counter` |  |
+| `108` | `material_short_description` | `used` |
+| `109` | `purchase_requisition_status` | `used` |
+| `110` | `purchase_request_material_id` | `used` |
+| `111` | `release_records` | `used` |
+| `112` | `rfq_details` |  |
+| `113` | `pr_rfq_id` | `used` |
+| `114` | `rfq_status` |  |
+| `115` | `collective_rfq_number` |  |
 
 ---
 
 > **List of unused parameters in the API - (called during click on Print PR button in Side Drawer) - `customer/purchaseRequest/getPurchaseRequestRecordsLists`**
+> 
 
+**Date: 16/10/25**
 
 | **No** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
@@ -1452,13 +1596,12 @@ customer/tender/tender_details
 | `178` | `updated_at` |  |
 | `179` | `purchase_request_material_id` | `✅used` |
 
--------------------------
-
-
 # **`3. Purchase Order`**
 
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getPurchaseOrderLists`**
+> 
 
+**Date: 16/10/25**
 
 | **No** | **Parameter** | **Used/Unused** |
 | --- | --- | --- |
@@ -1510,10 +1653,10 @@ customer/tender/tender_details
 | `46` | `material_specification` | `used` |
 | `47` | `material_short_description` | `used` |
 
----
-
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getPurchaseOrderListDetails`**
+> 
 
+**Date: 16/10/25**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -1708,98 +1851,92 @@ customer/tender/tender_details
 | `invoices` |  |
 | `total_po_advance_amount` | `used` |
 
----
-
 > **List of unused parameters in the API - `customer/purchaseRequestOrder/getAdvancePaymentRecordLists`**
+> 
 
+**Date: 16/10/25**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
-| **papl_id** | used |
-| **customer_id** | used |
-| **cust_emp_id** |  |
-| **pro_id** |  |
-| **vendor_id** |  |
-| **poi_id** | used |
-| **po_advance_payment_type** | used |
-| **po_advance_payment** | used |
-| **created_at** |  |
-| **updated_at** |  |
-| **invoice_number** | used |
-| **invoice_price** | used |
-| **invoice_date** | used |
-| **vendor_code** | used |
-| **vendor_name** | used |
+| **`papl_id`** | `used` |
+| **`customer_id`** | `used` |
+| **`cust_emp_id`** |  |
+| **`pro_id`** |  |
+| **`vendor_id`** |  |
+| **`poi_id`** | `used` |
+| **`po_advance_payment_type`** | `used` |
+| **`po_advance_payment`** | `used` |
+| **`created_at`** |  |
+| **`updated_at`** |  |
+| **`invoice_number`** | `used` |
+| **`invoice_price`** | `used` |
+| **`invoice_date`** | `used` |
+| **`vendor_code`** | `used` |
+| **`vendor_name`** | `used` |
 
-
--------------------------
-
-
-
-# **`4. ARC`**
-
+# `4. ARC`
 
 > **List of unused parameters in the API - `customer/arcQuotation/getRFQlis`**
 > 
 
+**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
-| **`arc_rfq_id`** | used |
-| **`arc_number`** | used |
-| **`arc_deadline`** | used |
-| **`arc_status`** | used |
-| **`is_deleted`** | used |
-| **`vendors_id`** | used |
-| **`special_vendor_ids`** | used |
-| **`collective_arc_number`** | used |
-| **`arc_tendor_type`** | used |
-| **`arc_type`** | used |
-| **`arc_date`** | used |
+| **`arc_rfq_id`** | `used` |
+| **`arc_number`** | `used` |
+| **`arc_deadline`** | `used` |
+| **`arc_status`** | `used` |
+| **`is_deleted`** | `used` |
+| **`vendors_id`** | `used` |
+| **`special_vendor_ids`** | `used` |
+| **`collective_arc_number`** | `used` |
+| **`arc_tendor_type`** | `used` |
+| **`arc_type`** | `used` |
+| **`arc_date`** | `used` |
 | **`purchase_group_id`** |  |
-| **`created_by`** | used |
-| **`arc_type_code`** | used |
-| **`tendor_type`** | used |
-| **`arc_oc`** | used |
-| **`arc_extend_status`** | used |
-| **`negotiation_deadlinedate`** | used |
-| **`is_show_negotiate`** | used |
-| **`contract_name`** | used |
-| **`cust_emp_fname`** | used |
-| **`cust_emp_lname`** | used |
-| **`approved_date`** | used |
-| **`arc_title`** | used |
-| **`pr_number`** | used |
-| **`requisitioner_names`** | used |
-| **`total_queries`** | used |
-| **`unread_queries`** | used |
+| **`created_by`** | `used` |
+| **`arc_type_code`** | `used` |
+| **`tendor_type`** | `used` |
+| **`arc_oc`** | `used` |
+| **`arc_extend_status`** | `used` |
+| **`negotiation_deadlinedate`** | `used` |
+| **`is_show_negotiate`** | `used` |
+| **`contract_name`** | `used` |
+| **`cust_emp_fname`** | `used` |
+| **`cust_emp_lname`** | `used` |
+| **`approved_date`** | `used` |
+| **`arc_title`** | `used` |
+| **`pr_number`** | `used` |
+| **`requisitioner_names`** | `used` |
+| **`total_queries`** | `used` |
+| **`unread_queries`** | `used` |
 | **`comparitive_reports`** |  |
 | **`ch_id`** |  |
 | **`file_path`** |  |
-| **`arc_rfq_id`** | used |
+| **`arc_rfq_id`** | `used` |
 | **`created_at`** |  |
-| **`cust_emp_id`** | used |
+| **`cust_emp_id`** | `used` |
 | **`customer_id`** |  |
-| **`updated_comparision_report`** | used |
+| **`updated_comparision_report`** | `used` |
 | **`po_attachments`** |  |
-| **`oem_vendor_count`** | used |
-| **`bidder_vendor_count`** | used |
-
----
+| **`oem_vendor_count`** | `used` |
+| **`bidder_vendor_count`** | `used` |
 
 > **List of unused parameters in the API - `customer/arcQuotation/get_rfq_details`**
+> 
 
-
+**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
-| **`arc_rfq_id`** | used |
+| **`arc_rfq_id`** | `used` |
 | **`arc_number`** |  |
-| **`arc_deadline`** | used |
-| **`arc_status`** | used |
-| **`is_deleted`** | used |
+| **`arc_deadline`** | `used` |
+| **`arc_status`** | `used` |
+| **`is_deleted`** | `used` |
 | **`vendors_id`** |  |
-| **`special_vendor_ids`** | used |
+| **`special_vendor_ids`** | `used` |
 | **`vendor_email_ids`** |  |
 | **`tendor_type`** |  |
 | **`collective_arc_number`** |  |
@@ -1808,7 +1945,7 @@ customer/tender/tender_details
 | **`arc_date`** |  |
 | **`purchase_group_id`** |  |
 | **`created_by`** |  |
-| **`arc_type_code`** | used |
+| **`arc_type_code`** | `used` |
 | **`arc_oc`** |  |
 | **`arc_extend_status`** |  |
 | **`negotiation_deadlinedate`** |  |
@@ -1827,13 +1964,13 @@ customer/tender/tender_details
 | **`f_and_o`** |  |
 | **`vendor_id`** |  |
 | **`arc_number`** |  |
-| **`arc_rfq_id`** | used |
-| **`arc_status`** | used |
+| **`arc_rfq_id`** | `used` |
+| **`arc_status`** | `used` |
 | **`created_at`** |  |
 | **`is_deleted`** |  |
 | **`updated_at`** |  |
-| **`cust_emp_id`** | used |
-| **`customer_id`** | used |
+| **`cust_emp_id`** | `used` |
+| **`customer_id`** | `used` |
 | **`f_and_o_dec`** |  |
 | **`gst_remarks`** |  |
 | **`vendor_code`** |  |
@@ -1867,21 +2004,21 @@ customer/tender/tender_details
 | **`updated_comparision_report`** |  |
 | **`po_attachments`** |  |
 | **`materiallists`** |  |
-| **`arc_request_material_id`** | used |
+| **`arc_request_material_id`** | `used` |
 | **`pr_id`** |  |
 | **`material_id`** |  |
 | **`material_code`** |  |
 | **`material_group_id`** |  |
 | **`material_group_code`** |  |
 | **`acc_assets_category_id`** |  |
-| **`category`** | used |
+| **`category`** | `used` |
 | **`item_category_id`** |  |
 | **`item`** |  |
-| **`quantity`** | used |
-| **`unit_id`** | used |
-| **`unit`** | used |
+| **`quantity`** | `used` |
+| **`unit_id`** | `used` |
+| **`unit`** | `used` |
 | **`total_price`** |  |
-| **`plant_id`** | used |
+| **`plant_id`** | `used` |
 | **`purchase_organization`** |  |
 | **`purchase_group_id`** |  |
 | **`purchase_group_code`** |  |
@@ -1920,68 +2057,66 @@ customer/tender/tender_details
 | **`material_specification`** |  |
 | **`service_detail`** |  |
 | **`id`** |  |
-| **`isEdit`** | used |
-| **`row_id`** | used |
-| **`currency`** | used |
-| **`short_text`** | used |
+| **`isEdit`** | `used` |
+| **`row_id`** | `used` |
+| **`currency`** | `used` |
+| **`short_text`** | `used` |
 | **`unit_price`** |  |
-| **`cost_center`** | used |
+| **`cost_center`** | `used` |
 | **`gross_price`** |  |
-| **`service_number`** | used |
-| **`arc_category_id`** | used |
-| **`arc_category_name`** | used |
+| **`service_number`** | `used` |
+| **`arc_category_id`** | `used` |
+| **`arc_category_name`** | `used` |
 | **`annual_tentative_requirement`** |  |
-| **`arc_sub_category_id`** | used |
-| **`arc_sub_category_name`** | used |
+| **`arc_sub_category_id`** | `used` |
+| **`arc_sub_category_name`** | `used` |
 | **`po_order_quantity`** |  |
 | **`is_materil_po_created`** |  |
-| **`sap_item`** | used |
+| **`sap_item`** | `used` |
 | **`material_name`** |  |
 | **`material_short_description`** |  |
 | **`vendorqueries`** |  |
-| **`attachments`** | used |
-
----
+| **`attachments`** | `used` |
 
 > **List of unused parameters in the API - `customer/arcQuotation/comparisionRFQApproverHistory`**
+> 
 
-
+**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
-| **workflow_approval_id** | used |
-| **customer_id** | used |
-| **arc_rfq_id** | used |
-| **cust_emp_id** | used |
-| **remarks** | used |
-| **is_delete** |  |
-| **created_at** | used |
-| **updated_at** | used |
-| **deleted_at** |  |
-| **approved_at** | used |
-| **approval_status** | used |
-| **comparative_link** | used |
-| **approval_type** | used |
-| **level_name** | used |
-| **is_already_used** |  |
-| **remarks_text** |  |
-| **approval_assigne_at** |  |
-| **approval_time** |  |
-| **is_enquiry_important** | used |
-| **reminder_cron_run** |  |
-| **is_hold** |  |
-| **is_unread** |  |
-| **approval_hold_at** |  |
-| **is_return** |  |
-| **cust_emp_fname** | used |
-| **cust_emp_lname** | used |
-| **ceb_prefix** | used |
-
----
+| **`workflow_approval_id`** | `used` |
+| **`customer_id`** | `used` |
+| **`arc_rfq_id`** | `used` |
+| **`cust_emp_id`** | `used` |
+| **`remarks`** | `used` |
+| **`is_delete`** |  |
+| **`created_at`** | `used` |
+| **`updated_at`** | `used` |
+| **`deleted_at`** |  |
+| **`approved_at`** | `used` |
+| **`approval_status`** | `used` |
+| **`comparative_link`** | `used` |
+| **`approval_type`** | `used` |
+| **`level_name`** | `used` |
+| **`is_already_used`** |  |
+| **`remarks_text`** |  |
+| **`approval_assigne_at`** |  |
+| **`approval_time`** |  |
+| **`is_enquiry_important`** | `used` |
+| **`reminder_cron_run`** |  |
+| **`is_hold`** |  |
+| **`is_unread`** |  |
+| **`approval_hold_at`** |  |
+| **`is_return`** |  |
+| **`cust_emp_fname`** | `used` |
+| **`cust_emp_lname`** | `used` |
+| **`ceb_prefix`** | `used` |
 
 > **List of unused parameters in the API - `customer/arcQuotation/getDeleteRequestQuotation`**
+> 
 
-
+**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
@@ -2007,160 +2142,154 @@ customer/tender/tender_details
 | **`cust_emp_fname`** |  |
 | **`cust_emp_lname`** |  |
 
----
-
 > **List of unused parameters in the API - `customer/arcQuotation/getRequestQuotationARCDetails`**
+> 
 
-
+**`Date: 17/10/25`**
 
 | **Parameter** | **Used/Unused** |
 | --- | --- |
-| **`arc_number`** | **`used`** |
-| **`arc_deadline`** | **`used`** |
-| **`arc_status`** | **`used`** |
-| **`is_deleted`** | **`used`** |
-| **`vendors_id`** | **`used`** |
-| **`vendor_email_ids`** | **`used`** |
-| **`tendor_type`** | **`used`** |
-| **`collective_arc_number`** | **`used`** |
-| **`arc_tendor_type`** | **`used`** |
-| **`arc_type`** | **`used`** |
-| **`arc_date`** | **`used`** |
-| **`purchase_group_id`** | **`used`** |
-| **`created_by`** | **`used`** |
-| **`arc_type_code`** | **`used`** |
-| **`arc_oc`** |  |
-| **`arc_extend_status`** |  |
-| **`negotiation_deadlinedate`** |  |
-| **`is_show_negotiate`** |  |
-| **`contract_name`** | **`used`** |
-| **`cust_emp_fname`** | **`used`** |
-| **`cust_emp_lname`** | **`used`** |
-| **`pr_number`** | **`used`** |
-| **`requisitioner_names`** |  |
-| **`total_queries`** |  |
-| **`unread_queries`** |  |
-| **`quotationlists`** | **`used`** |
-| **`pro_id`** |  |
-| **`f_and_o`** |  |
-| **`vendor_id`** | **`used`** |
-| **`arc_rfq_id`** | **`used`** |
-| **`created_at`** |  |
-| **`updated_at`** |  |
-| **`cust_emp_id`** | **`used`** |
-| **`customer_id`** | **`used`** |
-| **`f_and_o_dec`** |  |
-| **`gst_remarks`** |  |
-| **`vendor_code`** |  |
-| **`vendor_name`** |  |
-| **`total_amount`** |  |
-| **`vendor_email`** |  |
-| **`vendor_phone`** |  |
-| **`payment_terms`** |  |
-| **`delivery_terms`** |  |
-| **`quantity_terms`** |  |
-| **`regret_remarks`** |  |
-| **`vendor_remarks`** |  |
-| **`arc_contract_id`** |  |
-| **`reference_number`** |  |
-| **`supplier_remarks`** |  |
-| **`vendor_po_status`** |  |
-| **`payment_terms_dec`** |  |
-| **`delivery_terms_dec`** |  |
-| **`contact_person_name`** |  |
-| **`vendor_arc_document`** |  |
-| **`arc_vendor_master_id`** |  |
-| **`contact_person_email`** |  |
-| **`contact_person_number`** |  |
-| **`vendor_rfq_quotation_history`** |  |
-| **`vendor_arc_quotation_document`** | **`used`** |
-| **`vendoremaillists`** | **`used`** |
-| **`comparitive_reports`** |  |
-| **`ch_id`** |  |
-| **`file_path`** |  |
-| **`updated_comparision_report`** |  |
-| **`po_attachments`** |  |
-| **`image_id`** | **`used`** |
-| **`file_name`** |  |
-| **`file_type`** |  |
-| **`image_url`** |  |
-| **`thumb_url`** |  |
-| **`materiallists`** | **`used`** |
-| **`arc_request_material_id`** | **`used`** |
-| **`pr_id`** | **`used`** |
-| **`material_id`** | **`used`** |
-| **`material_code`** | **`used`** |
-| **`material_group_id`** | **`used`** |
-| **`material_group_code`** | **`used`** |
-| **`acc_assets_category_id`** | **`used`** |
-| **`category`** | **`used`** |
-| **`item_category_id`** | **`used`** |
-| **`item`** | **`used`** |
-| **`quantity`** | **`used`** |
-| **`unit_id`** | **`used`** |
-| **`unit`** | **`used`** |
-| **`total_price`** | **`used`** |
-| **`plant_id`** | **`used`** |
-| **`purchase_organization`** | **`used`** |
-| **`purchase_group_code`** | **`used`** |
-| **`tracking_number`** | **`used`** |
-| **`material_revision`** |  |
-| **`quantity_ordered`** |  |
-| **`quantity_open`** |  |
-| **`request_date`** |  |
-| **`release_date`** |  |
-| **`pl_delivery_time`** |  |
-| **`gr_proc_time`** |  |
-| **`delivery_text`** | **`used`** |
-| **`material_po_text`** | **`used`** |
-| **`process_status`** | **`used`** |
-| **`purchase_requisition_status`** | **`used`** |
-| **`order_qty`** | **`used`** |
-| **`uploading_point`** | **`used`** |
-| **`recipient`** | **`used`** |
-| **`g_l_account`** | **`used`** |
-| **`assets`** | **`used`** |
-| **`co_area`** | **`used`** |
-| **`assignment_order`** | **`used`** |
-| **`wbs_element`** | **`used`** |
-| **`funds_center`** | **`used`** |
-| **`requisitioner`** | **`used`** |
-| **`requisitioner_name`** | **`used`** |
-| **`vendor_detail`** | **`used`** |
-| **`goods_receipt`** |  |
-| **`invoice_receipt`** |  |
-| **`item_text`** | **`used`** |
-| **`item_note`** | **`used`** |
-| **`delivery_date`** | **`used`** |
-| **`initial_price`** |  |
-| **`rfq_delivery_date`** | **`used`** |
-| **`distribution`** |  |
-| **`material_specification`** | **`used`** |
-| **`service_detail`** | **`used`** |
-| **`arc_category_id`** | **`used`** |
-| **`arc_category_name`** | **`used`** |
-| **`annual_tentative_requirement`** | **`used`** |
-| **`arc_sub_category_id`** | **`used`** |
-| **`arc_sub_category_name`** | **`used`** |
-| **`po_order_quantity`** |  |
-| **`is_materil_po_created`** |  |
-| **`sap_item`** | **`used`** |
-| **`material_name`** | **`used`** |
-| **`material_short_description`** | **`used`** |
-| **`vendorqueries`** | **`used`** |
-| **`attachments`** | **`used`** |
+| `arc_number` | `used` |
+| `arc_deadline` | `used` |
+| `arc_status` | `used` |
+| `is_deleted` | `used` |
+| `vendors_id` | `used` |
+| `vendor_email_ids` | `used` |
+| `tendor_type` | `used` |
+| `collective_arc_number` | `used` |
+| `arc_tendor_type` | `used` |
+| `arc_type` | `used` |
+| `arc_date` | `used` |
+| `purchase_group_id` | `used` |
+| `created_by` | `used` |
+| `arc_type_code` | `used` |
+| `arc_oc` |  |
+| `arc_extend_status` |  |
+| `negotiation_deadlinedate` |  |
+| `is_show_negotiate` |  |
+| `contract_name` | `used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
+| `pr_number` | `used` |
+| `requisitioner_names` |  |
+| `total_queries` |  |
+| `unread_queries` |  |
+| `quotationlists` | `used` |
+| `pro_id` |  |
+| `f_and_o` |  |
+| `vendor_id` | `used` |
+| `arc_rfq_id` | `used` |
+| `created_at` |  |
+| `updated_at` |  |
+| `cust_emp_id` | `used` |
+| `customer_id` | `used` |
+| `f_and_o_dec` |  |
+| `gst_remarks` |  |
+| `vendor_code` |  |
+| `vendor_name` |  |
+| `total_amount` |  |
+| `vendor_email` |  |
+| `vendor_phone` |  |
+| `payment_terms` |  |
+| `delivery_terms` |  |
+| `quantity_terms` |  |
+| `regret_remarks` |  |
+| `vendor_remarks` |  |
+| `arc_contract_id` |  |
+| `reference_number` |  |
+| `supplier_remarks` |  |
+| `vendor_po_status` |  |
+| `payment_terms_dec` |  |
+| `delivery_terms_dec` |  |
+| `contact_person_name` |  |
+| `vendor_arc_document` |  |
+| `arc_vendor_master_id` |  |
+| `contact_person_email` |  |
+| `contact_person_number` |  |
+| `vendor_rfq_quotation_history` |  |
+| `vendor_arc_quotation_document` | `used` |
+| `vendoremaillists` | `used` |
+| `comparitive_reports` |  |
+| `ch_id` |  |
+| `file_path` |  |
+| `updated_comparision_report` |  |
+| `po_attachments` |  |
+| `image_id` | `used` |
+| `file_name` |  |
+| `file_type` |  |
+| `image_url` |  |
+| `thumb_url` |  |
+| `materiallists` | `used` |
+| `arc_request_material_id` | `used` |
+| `pr_id` | `used` |
+| `material_id` | `used` |
+| `material_code` | `used` |
+| `material_group_id` | `used` |
+| `material_group_code` | `used` |
+| `acc_assets_category_id` | `used` |
+| `category` | `used` |
+| `item_category_id` | `used` |
+| `item` | `used` |
+| `quantity` | `used` |
+| `unit_id` | `used` |
+| `unit` | `used` |
+| `total_price` | `used` |
+| `plant_id` | `used` |
+| `purchase_organization` | `used` |
+| `purchase_group_code` | `used` |
+| `tracking_number` | `used` |
+| `material_revision` |  |
+| `quantity_ordered` |  |
+| `quantity_open` |  |
+| `request_date` |  |
+| `release_date` |  |
+| `pl_delivery_time` |  |
+| `gr_proc_time` |  |
+| `delivery_text` | `used` |
+| `material_po_text` | `used` |
+| `process_status` | `used` |
+| `purchase_requisition_status` | `used` |
+| `order_qty` | `used` |
+| `uploading_point` | `used` |
+| `recipient` | `used` |
+| `g_l_account` | `used` |
+| `assets` | `used` |
+| `co_area` | `used` |
+| `assignment_order` | `used` |
+| `wbs_element` | `used` |
+| `funds_center` | `used` |
+| `requisitioner` | `used` |
+| `requisitioner_name` | `used` |
+| `vendor_detail` | `used` |
+| `goods_receipt` |  |
+| `invoice_receipt` |  |
+| `item_text` | `used` |
+| `item_note` | `used` |
+| `delivery_date` | `used` |
+| `initial_price` |  |
+| `rfq_delivery_date` | `used` |
+| `distribution` |  |
+| `material_specification` | `used` |
+| `service_detail` | `used` |
+| `arc_category_id` | `used` |
+| `arc_category_name` | `used` |
+| `annual_tentative_requirement` | `used` |
+| `arc_sub_category_id` | `used` |
+| `arc_sub_category_name` | `used` |
+| `po_order_quantity` |  |
+| `is_materil_po_created` |  |
+| `sap_item` | `used` |
+| `material_name` | `used` |
+| `material_short_description` | `used` |
+| `vendorqueries` | `used` |
+| `attachments` | `used` |
 
--------------------------
+---
 
-
-
-# **`5. ARC Contract`**
-
-
+# `5. ARC Contract`
 
 > **List of unused parameters in the API (Pagination API) - `customer/arcContractOrder/getPurchaseOrderLists`**
-
-
+> 
 
 | **Parameters** | **Used/Unused** |
 | --- | --- |
@@ -2314,9 +2443,7 @@ customer/tender/tender_details
 | `packaging_forwarding_lumpsum_value` |  |
 | `packaging_forwarding_lumpsum_cn_type` |  |
 
----
-
-> **List of unused parameters in the API (API Called when taking reference for creating a new ARC Contract) - `customer/arcQuotation/getRFQApprovedRecord`**
+> **List of unused parameters in the API (API Called when take reference for create new ARC Contract) - `customer/arcQuotation/getRFQApprovedRecord`**
 > 
 
 | **Parameters** | **Used/Unused** |
@@ -2381,11 +2508,6 @@ customer/tender/tender_details
 | `vendor_arc_quotation_document` |  |
 | `updated_comparision_report` |  |
 
-
----
-
-
-
 | **Parameters** | **Used/Unused** |
 | --- | --- |
 | `workflow_approval_id` | `used` |
@@ -2415,12 +2537,7 @@ customer/tender/tender_details
 
 ---
 
-
-
-
-# **`6️⃣ Purchase DMS`**
-
-
+# **`6. Purchase DMS`**
 
 > **List of unused parameters in the API (Pagination API) -** `customer/dmsdocument/getDocumentCollectionLists`
 > 
@@ -2521,21 +2638,18 @@ customer/tender/tender_details
 | `cust_emp_lname` | `used` |
 | `attachmentrecords` | `used` |
 | `release_records` | `used` |
-| `created_at` |  |
-| `dms_id` | `used` |
-| `file_name` | `used` |
-| `file_type` | `used` |
-| `image_id` | `used` |
-| `image_url` | `used` |
-| `thumb_url` | `used` |
-| `updated_at` |  |
+| **`created_at`** |  |
+| **`dms_id`** | `used` |
+| **`file_name`** | `used` |
+| **`file_type`** | `used` |
+| **`image_id`** | `used` |
+| **`image_url`** | `used` |
+| **`thumb_url`** | `used` |
+| **`updated_at`** |  |
 
 ---
 
-
-
 # **`7. Document Management System`**
-
 
 > **List of unused parameters in the API (Pagination API) - `customer/dmsdocument/getDocumentCollectionLists`**
 > 
@@ -2662,11 +2776,10 @@ customer/tender/tender_details
 
 ---
 
-
 > **List of unused parameters in the API (Staff List) - `customer/dmsdocument/getApprovalEmployees`**
 > 
 
-**`dmsService.getApprovalEmployees`**
+**dmsService.getApprovalEmployees**
 
 | **Parameters** | **Used/Unused** |
 | --- | --- |
@@ -2711,9 +2824,7 @@ customer/tender/tender_details
 
 ---
 
-
 # **`8. Request Management`**
-
 
 > **List of unused parameters in the API (Pagination API) - `customer/requests_master/getRequestsCollectionLists`**
 > 
@@ -2828,11 +2939,7 @@ customer/tender/tender_details
 
 ---
 
-
-
-
 # **`9. Workflow Management`**
-
 
 > **List of unused parameters in the API (Pagination API) - `customer/requestQuotation/getWorkflowRequestQuotationRecords`**
 > 
@@ -3508,11 +3615,8 @@ customer/tender/tender_details
 
 ---
 
-
-
 > **List of unused parameters in the API (Pagination API) - `customer/purchaseRequestOrder/getWorkflowPORecords`**
 > 
-
 
 | **Parameters** | **Used/Unused** |
 | --- | --- |
@@ -3557,7 +3661,9 @@ customer/tender/tender_details
 | `arc_rfq_details` | `used` |
 | `comparision_report` |  |
 | `workflow_history_records` | `used` |
+
 | `poi_id` | `used` |
+| --- | --- |
 | `pro_id` | `used` |
 | `is_hold` | `used` |
 | `remarks` | `used` |
@@ -3582,13 +3688,9 @@ customer/tender/tender_details
 | `approval_assigne_at` | `used` |
 | `workflow_approval_id` | `used` |
 
-
 ---
 
-
-
 # **`10. Staff Management`**
-
 
 > **List of unused parameters in the API (Pagination API) - `customer/employee/getEmployees`**
 > 
@@ -3652,7 +3754,6 @@ customer/tender/tender_details
 
 ---
 
-
 > **List of unused parameters in the API (Edit staff API) - `customer/employee/getEmployee`**
 > 
 
@@ -3703,9 +3804,7 @@ customer/tender/tender_details
 
 ---
 
-
 # **`11. Vendor Management`**
-
 
 > **List of unused parameters in the API (Pagination API) - `customer/vendor/listPagination`**
 > 
@@ -3808,7 +3907,6 @@ customer/tender/tender_details
 | `is_vendor_active_for_customer` |  |
 
 ---
-
 
 # **`12. Tender Management`**
 
@@ -4377,7 +4475,6 @@ customer/tender/tender_details
 | `comparitive_cust_emp_lname` |  |
 | `comparitive_email` |  |
 | `comparitive_role_name` |  |
-
 
 ---
 
