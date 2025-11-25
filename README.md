@@ -629,66 +629,66 @@
 
 | **Parameter** | **Used / Unused** |
 | --- | --- |
-| `rfq_number` | `✅used` |
-| `rfq_deadline` | `✅used` |
+| `rfq_number` | `used` |
+| `rfq_deadline` | `used` |
 | `rfq_status` |  |
-| `is_deleted` | `✅used` |
-| `vendors_id` | `✅used` |
+| `is_deleted` | `used` |
+| `vendors_id` | `used` |
 | `vendor_email_ids` |  |
-| `collective_rfq_number` | `✅used` |
-| `tendor_type` | `✅used` |
-| `rfq_type` | `✅used` |
-| `rfq_date` | `✅used` |
-| `purchase_group_id` | `✅used` |
-| `created_by` | `✅used` |
-| `category_ids` |  |
-| `rfq_oc` | `✅used` |
-| `rfq_extend_status` | `✅used` |
-| `negotiation_deadlinedate` | `✅used` |
-| `is_show_negotiate` | `✅used` |
-| `extend_count` | `✅used` |
+| `collective_rfq_number` | `used` |
+| `tendor_type` | `used` |
+| `rfq_type` | `used` |
+| `rfq_date` | `used` |
+| `purchase_group_id` | `used` |
+| `created_by` | `used` |
+| `category_ids` | `used` |
+| `rfq_oc` | `used` |
+| `rfq_extend_status` | `used` |
+| `negotiation_deadlinedate` | `used` |
+| `is_show_negotiate` | `used` |
+| `extend_count` | `used` |
 | `currency_detail` |  |
-| `cust_emp_fname` | `✅used` |
-| `cust_emp_lname` | `✅used` |
+| `cust_emp_fname` | `used` |
+| `cust_emp_lname` | `used` |
 | `approved_date` |  |
-| `pr_number` | `✅used` |
-| `requisitioner_names` | `✅used` |
-| `total_queries` | `✅used` |
-| `unread_queries` | `✅used` |
-| `comparitive_reports` | `✅used` |
-| `vendoremaillists` |  |
-| `updated_comparision_report` | `✅used` |
-| `po_attachments` | `✅used` |
-| `materiallists` | `✅used` |
-| `vendor_details` | `✅used` |
-| `rfq_title` | `✅used` |
-| `purchase_organization` | `✅used` |
-| `purchase_group_code` | `✅used` |
-| `technical_emp_id` | `✅used` |
-| `requisitioner_name` | `✅used` |
-| `material_id` | `✅used` |
-| `material_code` | `✅used` |
-| `material_group_id` | `✅used` |
-| `material_group_code` | `✅used` |
-| `quantity` | `✅used` |
-| `unit_id` | `✅used` |
-| `unit` | `✅used` |
-| `total_price` | `✅used` |
-| `plant_id` | `✅used` |
-| `plant_code` | `✅used` |
-| `process_status` | `✅used` |
-| `requisitioner` | `✅used` |
-| `item_text` | `✅used` |
-| `delivery_date` | `✅used` |
-| `rfq_delivery_date` | `✅used` |
-| `material_specification` | `✅used` |
-| `material_name` | `✅used` |
-| `material_short_description` | `✅used` |
-| `vendor_id` | `✅used` |
-| `vendor_phone` | `✅used` |
-| `vendor_email` | `✅used` |
-| `vendor_name` | `✅used` |
-| `vendor_emp_id` | `✅used` |
+| `pr_number` | `used` |
+| `requisitioner_names` | `used` |
+| `total_queries` | `used` |
+| `unread_queries` | `used` |
+| `comparitive_reports` | `used` |
+| `vendoremaillists` | `used` |
+| `updated_comparision_report` | `used` |
+| `po_attachments` | `used` |
+| `materiallists` | `used` |
+| `vendor_details` | `used` |
+| `rfq_title` | `used` |
+| `purchase_organization` | `used` |
+| `purchase_group_code` | `used` |
+| `technical_emp_id` | `used` |
+| `requisitioner_name` | `used` |
+| `material_id` | `used` |
+| `material_code` | `used` |
+| `material_group_id` | `used` |
+| `material_group_code` | `used` |
+| `quantity` | `used` |
+| `unit_id` | `used` |
+| `unit` | `used` |
+| `total_price` | `used` |
+| `plant_id` | `used` |
+| `plant_code` | `used` |
+| `process_status` | `used` |
+| `requisitioner` | `used` |
+| `item_text` | `used` |
+| `delivery_date` | `used` |
+| `rfq_delivery_date` | `used` |
+| `material_specification` | `used` |
+| `material_name` | `used` |
+| `material_short_description` | `used` |
+| `vendor_id` | `used` |
+| `vendor_phone` | `used` |
+| `vendor_email` | `used` |
+| `vendor_name` | `used` |
+| `vendor_emp_id` | `used` |
 | `first_name` |  |
 | `last_name` |  |
 | `verified` |  |
